@@ -1,0 +1,15 @@
+Converting GML script: ${project_dir}\objects\o_dust_effect\Create_0.gml
+Converted description /// @description Set variables
+
+Converting GML script: ${project_dir}\objects\o_dust_effect\Step_2.gml
+Converted description /// @description Delay & stick to objects
+
+Converting GML script: ${project_dir}\objects\o_dust_effect\Other_7.gml
+Converted description /// @description Destroy
+
+Converting GML script: ${project_dir}\objects\o_dust_effect\Draw_0.gml
+Converted description /// @description Draw effect
+
+Added compatibility script 'd3d/d3d_set_fog.gml'
+Added compatibility script 'd3d/__init_d3d.gml'
+Added compatibility script '__init_global.gml'

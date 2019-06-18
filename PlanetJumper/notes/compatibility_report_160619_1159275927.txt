@@ -1,0 +1,57 @@
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Converting GML script: ${project_dir}\objects\obj_Player\Create_0.gml
+Converted description /// @description Initialize Variables
+
+Converting GML script: ${project_dir}\objects\obj_Player\Alarm_0.gml
+Converted description /// @description Change to Floating Animation
+
+Converting GML script: ${project_dir}\objects\obj_Player\Step_2.gml
+Converted builtin - line 2: view_xview[0] = x-view_wview[0]/2 -> __view_set( e__VW.XView, 0, x-view_wview[0]/2 )
+Converted builtin - line 3: view_yview[0] = y-view_hview[0]/2 -> __view_set( e__VW.YView, 0, y-view_hview[0]/2 )
+Converted description /// @description  Set View
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 3: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_Player\Step_0.gml
+Converted description /// @description Player Controls
+
+Converting GML script: ${project_dir}\objects\obj_Player\Other_75.gml
+Converted description /// @description  Check for Gamepads
+
+Converting GML script: ${project_dir}\objects\obj_Player\Draw_0.gml
+Converted description /// @description  Draw Player
+
+Converting GML script: ${project_dir}\objects\obj_Planet\Create_0.gml
+Converted description /// @description Initialize Planet Variables
+
+Converting GML script: ${project_dir}\objects\obj_Planet\Step_0.gml
+Converted description /// @description Control Speed and Collisions with Player / Other Planets
+
+Converting GML script: ${project_dir}\objects\obj_Planet\Draw_0.gml
+Converted description /// @description Draw the Planets
+
+Converting GML script: ${project_dir}\objects\obj_Planet_Stationary\Create_0.gml
+Converted description /// @description Initialize Planet Variables
+
+Converting GML script: ${project_dir}\objects\obj_Enemy\Create_0.gml
+Converted description /// @description Initialize Variables
+
+Converting GML script: ${project_dir}\objects\obj_Enemy\Alarm_0.gml
+Converted description /// @description  Change Directions
+
+Converting GML script: ${project_dir}\objects\obj_Enemy\Step_0.gml
+Converted description /// @description Enemy Controls
+
+Converting GML script: ${project_dir}\objects\obj_Enemy\Draw_0.gml
+Converted description /// @description  Draw Enemy
+
+Missing audiogroup for sound: 'snd_Jump' - setting to default audio group
+Game speed set to 60
+Added compatibility script 'action/action_end_game.gml'
+Added compatibility script 'action/action_restart_game.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'

@@ -1,0 +1,5 @@
+/// @description  Idle();
+
+GetInput();
+
+Movement();

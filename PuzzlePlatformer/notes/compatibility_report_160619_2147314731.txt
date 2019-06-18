@@ -1,0 +1,89 @@
+Converting GML script: ${project_dir}\scripts\Approach\Approach.gml
+Converted description /// @description  Approach(start, end, shift);/// @param start
+/// @param  end
+/// @param  shift
+
+Converting GML script: ${project_dir}\scripts\OnGround\OnGround.gml
+Converted description /// @description  OnGround();
+
+Converting GML script: ${project_dir}\scripts\PlatformCheck\PlatformCheck.gml
+Converted description /// @description  PlatformCheck();
+
+Converting GML script: ${project_dir}\objects\oGame\Create_0.gml
+Converted description /// @description  Camera Functions
+
+Converting GML script: ${project_dir}\objects\oGame\Alarm_0.gml
+Converted description /// @description  Turn Off Screenshake
+
+Converting GML script: ${project_dir}\objects\oGame\Step_2.gml
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_xview[0] += xcamo -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (xcamo) )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 9: view_yview[0] += ycamo -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (ycamo) )
+Converted builtin - line 4: view_wport[0] -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 5: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted description /// @description  Camera
+Converted builtin - line 4: view_xview[0] = max(0, min(__view_get( e__VW.XView, 0 ), room_width  - __view_get( e__VW.WPort, 0 ))) -> __view_set( e__VW.XView, 0, max(0, min(__view_get( e__VW.XView, 0 ), room_width  - __view_get( e__VW.WPort, 0 ))) )
+Converted builtin - line 5: view_yview[0] = max(0, min(__view_get( e__VW.YView, 0 ), room_height - __view_get( e__VW.HPort, 0 ))) -> __view_set( e__VW.YView, 0, max(0, min(__view_get( e__VW.YView, 0 ), room_height - __view_get( e__VW.HPort, 0 ))) )
+
+Converting GML script: ${project_dir}\objects\oGame\Step_0.gml
+Converted description /// @description  Debug
+Converted string - line 6: 'R' -> "R"
+
+Converting GML script: ${project_dir}\objects\oGame\Other_4.gml
+Converted description /// @description  Room Variables
+
+Converting GML script: ${project_dir}\objects\oParEntity\Create_0.gml
+Converted description /// @description  Initialize Variables
+
+Converting GML script: ${project_dir}\objects\oParEntity\Step_2.gml
+Converted description /// @description  Handle sub-pixel movement
+
+Converting GML script: ${project_dir}\objects\oCircleMover\Create_0.gml
+Converted description /// @description  Initialize Circle Variables
+
+Converting GML script: ${project_dir}\objects\oCircleMover\Step_2.gml
+Converted description /// @description  Handle Sub-Pixel Movement
+
+Converting GML script: ${project_dir}\objects\oCircleMover\Step_0.gml
+Converted description /// @description Speed and Movement Variables
+
+Converting GML script: ${project_dir}\objects\oCircleMover\Draw_0.gml
+Converted description /// @description  Draw Circle and Platform
+
+Converting GML script: ${project_dir}\objects\oPathMover\Create_0.gml
+Converted description /// @description  Initialize Path Variables
+
+Converting GML script: ${project_dir}\objects\oPathMover\Step_2.gml
+Converted description /// @description  Update
+
+Converting GML script: ${project_dir}\objects\oPathMover\Draw_0.gml
+Converted description /// @description  Draw Path and Platform
+
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Converting GML script: ${project_dir}\objects\oPlayer\Create_0.gml
+Converted description /// @description  Initialize Variables
+
+Converting GML script: ${project_dir}\objects\oPlayer\Step_2.gml
+Converted description /// @description  Inherit Entity
+
+Converting GML script: ${project_dir}\objects\oPlayer\Step_1.gml
+Converted description /// @description  Dust Particles + Squash and Stretch
+
+Converting GML script: ${project_dir}\objects\oPlayer\Step_0.gml
+Converted description /// @description  Movement
+Converted string - line 15: 'Q' -> "Q"
+Converted string - line 16: 'E' -> "E"
+
+Converting GML script: ${project_dir}\objects\oPlayer\Draw_0.gml
+Converted description /// @description  Draw
+
+Game speed set to 30
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

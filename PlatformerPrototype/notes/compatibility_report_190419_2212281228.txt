@@ -1,0 +1,6 @@
+Converting GML script: ${project_dir}\scripts\get_path\get_path.gml
+Converted description /// @description get_path(x1, y1, x2, y2, [avoid_danger?])/// @param x1
+/// @param  y1
+/// @param  x2
+/// @param  y2
+/// @param  [avoid_danger?]

@@ -1,0 +1,29 @@
+///@description Step logic
+
+#region		Set Variables
+////////////////////////////////////////////////////////////////////////////
+
+// Inherit from o_menu_parent
+event_inherited();
+
+////////////////////////////////////////////////////////////////////////////
+#endregion
+
+
+#region Buttons		
+////////////////////////////////////////////////////////////////////////////
+	
+// Select button
+if (_key_confirm && point_in_rectangle(device_mouse_x_to_gui(0),device_mouse_y_to_gui(0), cx - 100, cy * 2 - 50, cx + 100, cy * 2 - 25)) {
+	// Play a sound effect
+	audio_play_sound(sound[1], 0, 0);
+	switch(button_) {
+		// Go to main menu
+		case 0: room_goto(r_main_menu) break;
+	}
+} //end Confirm statement
+
+
+////////////////////////////////////////////////////////////////////////////
+#endregion
+

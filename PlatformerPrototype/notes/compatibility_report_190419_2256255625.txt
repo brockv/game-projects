@@ -1,0 +1,15 @@
+Converting GML script: ${project_dir}\objects\objObject\Create_0.gml
+Converted description /// @description Set variables
+
+Converting GML script: ${project_dir}\objects\objObject\Step_2.gml
+Converted description /// @description Movement
+
+Converting GML script: ${project_dir}\objects\objCharacter\Step_2.gml
+Converted description /// @description Store old states
+
+Converting GML script: ${project_dir}\objects\objCharacter\Draw_0.gml
+Converted description /// @description Draw path
+
+Added compatibility script 'action/action_inherited.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script '__init_global.gml'

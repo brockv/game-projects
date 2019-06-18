@@ -1,0 +1,50 @@
+Converting GML script: ${project_dir}\scripts\pathfinding_room_setup\pathfinding_room_setup.gml
+Converted description /// @description pathfinding_room_setup(grid_size, can_wrap, wall_nodes, [connect_horizontal], [connect_vertical])/// @param grid_size
+/// @param  can_wrap
+/// @param  wall_nodes
+/// @param  [connect_horizontal]
+/// @param  [connect_vertical]
+
+Converting GML script: ${project_dir}\scripts\pathfinder_setup\pathfinder_setup.gml
+Converted description /// @description pathfinder_setup(update_timer, reaction_time)/// @param update_timer
+/// @param  reaction_time
+
+Converting GML script: ${project_dir}\scripts\get_path\get_path.gml
+Converted description /// @description get_path(x1, y1, x2, y2, [avoid_danger?])/// @param x1
+/// @param  y1
+/// @param  x2
+/// @param  y2
+/// @param  [avoid_danger?]
+
+Converting GML script: ${project_dir}\scripts\node_distance\node_distance.gml
+Converted description /// @description node_distance(node1, node2)/// @param node1
+/// @param  node2
+
+Converting GML script: ${project_dir}\scripts\node_connect\node_connect.gml
+Converted description /// @description node_connect(node)/// @param node
+
+Converting GML script: ${project_dir}\scripts\create_node\create_node.gml
+Converted description /// @description create_node(x, y, [type])/// @param x
+/// @param  y
+/// @param  [type]
+
+Converting GML script: ${project_dir}\scripts\create_room_nodes\create_room_nodes.gml
+Converted description /// @description create_room_nodes(grid_size, create_wall_nodes)/// @param grid_size
+/// @param  create_wall_nodes
+
+Converting GML script: ${project_dir}\scripts\connect_all_nodes\connect_all_nodes.gml
+Converted description /// @description connect_all_nodes()
+
+Converting GML script: ${project_dir}\scripts\pathfinder_step\pathfinder_step.gml
+Converted description /// @description pathfinder_step()
+
+Converting GML script: ${project_dir}\scripts\pathfinder_draw_path\pathfinder_draw_path.gml
+Converted description /// @description pathfinder_draw_path()
+
+Converting GML script: ${project_dir}\scripts\get_node_x\get_node_x.gml
+Converted description /// @description get_node_x(x, y, node, can_wrap)/// @param x
+/// @param  y
+/// @param  node
+/// @param  can_wrap
+
+Updated compatibility script '__global_object_depths.gml'

@@ -1,0 +1,556 @@
+Converting GML script: ${project_dir}\scripts\Menu_System_Controls\Menu_System_Controls.gml
+Converted builtin - line 10: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\scripts\Menu_System_Level_Select\Menu_System_Level_Select.gml
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 36: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 55: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 67: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 17: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 36: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 55: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 67: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\scripts\Menu_System_Main\Menu_System_Main.gml
+Converted builtin - line 10: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 29: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 29: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\scripts\Menu_System_Options\Menu_System_Options.gml
+Converted builtin - line 62: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 71: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 62: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 71: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\scripts\Menu_System_Table_Select\Menu_System_Table_Select.gml
+Converted builtin - line 22: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 44: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 66: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 76: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 44: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 66: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 76: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\scripts\Menu_System_Tables\Menu_System_Tables.gml
+Converted builtin - line 10: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\scripts\Approach\Approach.gml
+Converted description /// @description  Approach(start, end, shift);/// @param start
+/// @param  end
+/// @param  shift
+
+Converting GML script: ${project_dir}\scripts\On_Ground\On_Ground.gml
+Converted description /// @description  OnGround();
+
+Converting GML script: ${project_dir}\scripts\add_obj\add_obj.gml
+Converted description /// @description  add_obj(GameMaker_Object,sprite,count,maxOccurences,minOccurences);/// @param GameMaker_Object
+/// @param sprite
+/// @param count
+/// @param maxOccurences
+/// @param minOccurences
+
+Converting GML script: ${project_dir}\scripts\split\split.gml
+Converted description /// @description split(str,tag);/// @param str
+/// @param tag
+
+Converting GML script: ${project_dir}\scripts\string_explode\string_explode.gml
+Converted description /// @description string_explode(string,explode);/// @param string
+/// @param explode
+
+Converting GML script: ${project_dir}\scripts\rotate_smooth\rotate_smooth.gml
+Converted description /// @description rotate_smooth(start_direction,end_direction,speed);/// @param start_direction
+/// @param end_direction
+/// @param speed
+
+Converting GML script: ${project_dir}\scripts\url_encode\url_encode.gml
+Converted description /// @description url_encode(string);/// @param string
+
+Converting GML script: ${project_dir}\scripts\secure\secure.gml
+Converted description /// @description secure(string);/// @param string
+
+Converting GML script: ${project_dir}\scripts\clearMap\clearMap.gml
+Converted description /// @description clearMap();
+
+Converting GML script: ${project_dir}\scripts\add_textfield\add_textfield.gml
+Converted description /// @description add_textfield(x,y,halign,font,ID);/// @param x
+/// @param y
+/// @param halign
+/// @param font
+/// @param ID
+
+Converting GML script: ${project_dir}\scripts\clearTexts\clearTexts.gml
+Converted description /// @description clearTexts();
+
+Converting GML script: ${project_dir}\scripts\resetResults\resetResults.gml
+Converted description /// @description resetResults();
+
+Converting GML script: ${project_dir}\scripts\message\message.gml
+Converted description /// @description message(string);/// @param string
+
+Converting GML script: ${project_dir}\scripts\url_decode\url_decode.gml
+Converted description /// @description /////////////////////////////////////////////////////////////
+
+!!! Font font_Timer uses a font (DraconianPixelsRegular) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\font_Timer\font_Timer.gms1.png
+!!! Font font_Scores uses a font (DraconianPixelsRegular) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\font_Scores\font_Scores.gms1.png
+!!! Font font_Difficulty uses a font (DraconianPixelsRegular) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\font_Difficulty\font_Difficulty.gms1.png
+!!! Font font_Text uses a font (DraconianPixelsRegular) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\font_Text\font_Text.gms1.png
+!!! Font fntTitle uses a font (Mechanical Pencil) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fntTitle\fntTitle.gms1.png
+!!! Font fntOptions uses a font (Mechanical Pencil) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fntOptions\fntOptions.gms1.png
+!!! Font fntDetails uses a font (Mechanical Pencil) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fntDetails\fntDetails.gms1.png
+!!! Font fntMessage uses a font (Mechanical Pencil) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fntMessage\fntMessage.gms1.png
+!!! Font fntTiny uses a font (Mechanical Pencil) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fntTiny\fntTiny.gms1.png
+!!! Font fntEdit uses a font (Mechanical Pencil) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fntEdit\fntEdit.gms1.png
+Converting GML script: ${project_dir}\objects\obj_Checkpoint\Create_0.gml
+Converted description /// @description Initialize Variables
+
+Converting GML script: ${project_dir}\objects\obj_Checkpoint\Step_0.gml
+Converted description /// @description Set Checkpoint Position And Change Image
+
+Converting GML script: ${project_dir}\objects\obj_Player\Create_0.gml
+Converted description /// @description Initialize Variables
+
+Converting GML script: ${project_dir}\objects\obj_Player\Alarm_3.gml
+Converted description /// @description Swipe Delay
+
+Converting GML script: ${project_dir}\objects\obj_Player\Alarm_2.gml
+Converted description /// @description Switch To Falling Sprite
+
+Converting GML script: ${project_dir}\objects\obj_Player\Alarm_1.gml
+Converted description /// @description Flip Image
+
+Converting GML script: ${project_dir}\objects\obj_Player\Alarm_0.gml
+Converted description /// @description Reset Gravity Switching
+
+Converting GML script: ${project_dir}\objects\obj_Player\Step_2.gml
+Converted description /// @description Procedural Animation
+
+Converting GML script: ${project_dir}\objects\obj_Player\Step_1.gml
+Converted description /// @description Dust Particle Spawning And Dispersion
+
+Converting GML script: ${project_dir}\objects\obj_Player\Step_0.gml
+Converted builtin - line 9: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 220: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 315: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 220: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 315: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 9: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 9: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description Player Input, View Control, And Collisions
+
+Converting GML script: ${project_dir}\objects\obj_Player\Draw_0.gml
+Converted description /// @description Draw The Player
+
+Converting GML script: ${project_dir}\objects\obj_Dust\Create_0.gml
+Converted description /// @description Generate And Disperse Dust Particles
+
+Converting GML script: ${project_dir}\objects\obj_Dust\Step_2.gml
+Converted description /// @description Dust Dispersion Continued
+
+Converting GML script: ${project_dir}\objects\obj_Dust\Step_0.gml
+Converted description /// @description Dust Dispersion Continued
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Start_Screen\Create_0.gml
+Converted description /// @description Initialize Menu Array
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Start_Screen\Alarm_1.gml
+Converted description /// @description Placeholder
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Start_Screen\Alarm_0.gml
+Converted description /// @description Swipe Delay
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Start_Screen\Step_2.gml
+Converted description /// @description Advance Cursor Image
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Start_Screen\Step_0.gml
+Converted description /// @description Controls Cursor And Handles Selections
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Start_Screen\Draw_0.gml
+Converted description /// @description Draws The Menu And Cursor
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Options\Create_0.gml
+Converted description /// @description Initialize Menu Array
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Options\Alarm_1.gml
+Converted description /// @description Placeholder
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Options\Alarm_0.gml
+Converted description /// @description Swipe Delay
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Options\Step_2.gml
+Converted description /// @description Advance Cursor Image
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Options\Step_0.gml
+Converted builtin - line 77: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 77: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Controls Cursor And Handles Selections
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Options\Draw_0.gml
+Converted description /// @description Draws The Menu And Cursor
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Level_Select\Create_0.gml
+Converted description /// @description Initialize Menu Array
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Level_Select\Alarm_1.gml
+Converted description /// @description Placeholder
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Level_Select\Alarm_0.gml
+Converted description /// @description Swipe Delay
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Level_Select\Step_2.gml
+Converted description /// @description Advance The Cursor Image
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Level_Select\Step_0.gml
+Converted builtin - line 76: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 76: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Controls Cursor And Handles Selections
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Level_Select\Draw_0.gml
+Converted description /// @description Draws The Menu and Cursor
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Controls\Create_0.gml
+Converted description /// @description Initialize Menu Array
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Controls\Alarm_1.gml
+Converted description /// @description Placeholder
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Controls\Alarm_0.gml
+Converted description /// @description Swipe Delay
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Controls\Step_2.gml
+Converted description /// @description Advance The Cursor Image
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Controls\Step_0.gml
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Controls Cursor And Handles Selections
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Controls\Draw_0.gml
+Converted description /// @description Draws The Menu And Cursor
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Game_Over\Create_0.gml
+Converted description /// @description Initialize Menu Array
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Game_Over\Alarm_1.gml
+Converted description /// @description Placeholder
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Game_Over\Alarm_0.gml
+Converted description /// @description Swipe Delay
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Game_Over\Step_2.gml
+Converted description /// @description Advance The Cursor Image
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Game_Over\Step_0.gml
+Converted description /// @description Controls Cursor And Handles Selections
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Game_Over\Other_63.gml
+Converted builtin - line 115: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 115: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Opens *.ini File And Creates Score Tables
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Game_Over\Other_5.gml
+Converted description /// @description Sets Variable For Previous Room
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Game_Over\Draw_0.gml
+Converted description /// @description Draws The Menu And Cursor
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Scores\Create_0.gml
+Converted description /// @description Initialize Menu Array
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Scores\Alarm_1.gml
+Converted description /// @description Placeholder
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Scores\Alarm_0.gml
+Converted description /// @description Swipe Delay
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Scores\Step_2.gml
+Converted description /// @description Advance The Cursor Image
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Scores\Step_0.gml
+Converted description /// @description Controls Cursor And Handles Selections
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Scores\Draw_0.gml
+Converted description /// @description Draws The Menu And Cursor
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Table_Select\Create_0.gml
+Converted description /// @description Initialize Menu Array
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Table_Select\Alarm_1.gml
+Converted description /// @description Placeholder
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Table_Select\Alarm_0.gml
+Converted description /// @description Swipe Delay
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Table_Select\Step_2.gml
+Converted description /// @description Advance The Cursor Image
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Table_Select\Step_0.gml
+Converted builtin - line 77: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 77: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Controls Cursor And Handles Selections
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Table_Select\Draw_0.gml
+Converted description /// @description Draws The Menu And Cursor
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Tables\Create_0.gml
+Converted description /// @description Initialize Menu Array
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Tables\Alarm_1.gml
+Converted description /// @description Placeholder
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Tables\Alarm_0.gml
+Converted description /// @description Swipe Delay
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Tables\Step_2.gml
+Converted description /// @description Advance The Cursor Image
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Tables\Step_0.gml
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Controls Cursor And Handles Selections
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Tables\Draw_0.gml
+Converted description /// @description Draws The Menu And Cursor
+
+Converting GML script: ${project_dir}\objects\obj_Initialize\Create_0.gml
+Converted description /// @description Initialize Game Variables
+
+Converting GML script: ${project_dir}\objects\obj_Gravity_Icon\Draw_64.gml
+Converted description /// @description Draw Gravity Icon
+
+Converting GML script: ${project_dir}\objects\obj_Pause_Controller\Create_0.gml
+Converted description /// @description Initialize Menu Items
+
+Converting GML script: ${project_dir}\objects\obj_Pause_Controller\Alarm_1.gml
+Converted description /// @description Placeholder
+
+Converting GML script: ${project_dir}\objects\obj_Pause_Controller\Alarm_0.gml
+Converted description /// @description Swipe Delay
+
+Converting GML script: ${project_dir}\objects\obj_Pause_Controller\Step_2.gml
+Converted description /// @description Advance Cursor Image
+
+Converting GML script: ${project_dir}\objects\obj_Pause_Controller\Step_0.gml
+Converted description /// @description Pause Controls
+
+Converting GML script: ${project_dir}\objects\obj_Pause_Controller\Draw_64.gml
+Converted description /// @description Draws The Menu And Cursor
+
+Converting GML script: ${project_dir}\objects\obj_Attempts_Controller\Draw_64.gml
+Converted description /// @description Draws Attempt Counter
+
+Converting GML script: ${project_dir}\objects\obj_Countup_Controller\Create_0.gml
+Converted description /// @description Initialize Seconds, Minutes, And Hours
+
+Converting GML script: ${project_dir}\objects\obj_Countup_Controller\Alarm_0.gml
+Converted description /// @description Alarm For Game Start Delay
+
+Converting GML script: ${project_dir}\objects\obj_Countup_Controller\Draw_64.gml
+Converted description /// @description Draws The Timer
+
+Converting GML script: ${project_dir}\objects\obj_Draw_Scores\Draw_0.gml
+Converted description /// @description Draws The Score Tables
+
+Converting GML script: ${project_dir}\objects\obj_Video_Player\Create_0.gml
+Converted description /// @description Initialize Video Player
+
+Converting GML script: ${project_dir}\objects\obj_Video_Player\Step_0.gml
+Converted description /// @description Play And Control Video
+
+Converting GML script: ${project_dir}\objects\obj_Video_Player\Draw_0.gml
+Converted description /// @description  Draws The Current Video Frame
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Fade\Create_0.gml
+Converted description /// @description Initialize Fade Variables
+
+Converting GML script: ${project_dir}\objects\obj_Menu_Fade\Draw_64.gml
+Converted description /// @description Performs Fade Transition
+
+Converting GML script: ${project_dir}\objects\obj_Spawn_Fade\Create_0.gml
+Converted description /// @description Initialize Fade Variables
+
+Converting GML script: ${project_dir}\objects\obj_Spawn_Fade\Draw_64.gml
+Converted description /// @description Performs Fade Transition
+
+Converting GML script: ${project_dir}\objects\obj_Level_Fade\Create_0.gml
+Converted description /// @description Initialize Fade Variables
+
+Converting GML script: ${project_dir}\objects\obj_Level_Fade\Draw_64.gml
+Converted description /// @description Performs Fade Transition
+
+Converting GML script: ${project_dir}\objects\obj_Respawn\Alarm_2.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Start / End Fade
+
+Converting GML script: ${project_dir}\objects\obj_Respawn\Alarm_1.gml
+Converted description /// @description Stop Vibration
+
+Converting GML script: ${project_dir}\objects\obj_Respawn\Alarm_0.gml
+Converted description /// @description Respawn Timer
+
+Converting GML script: ${project_dir}\objects\obj_Respawn\Step_2.gml
+Converted description /// @description Start Respawn And Vibration Timer
+
+Converting GML script: ${project_dir}\objects\obj_Respawn\Step_0.gml
+Converted description /// @description Keep Respawner On Screen
+
+Converting GML script: ${project_dir}\objects\obj_Respawn\Draw_64.gml
+Converted description /// @description Draw The Sprite
+
+Converting GML script: ${project_dir}\objects\obj_Game_Over\Create_0.gml
+Converted description /// @description Change Music To "Game Over"
+
+Converting GML script: ${project_dir}\objects\oEditor\Create_0.gml
+Converted builtin - line 263: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 264: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description README
+
+Converting GML script: ${project_dir}\objects\oEditor\Draw_0.gml
+Converted builtin - line 16: background_index[0] = bg_Editor -> __background_set( e__BG.Index, 0, bg_Editor )
+Converted builtin - line 249: background_index[0] = bg_Levels -> __background_set( e__BG.Index, 0, bg_Levels )
+Converted builtin - line 62: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 63: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 64: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 72: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 73: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 74: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 157: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 171: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 179: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 179: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 183: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 189: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 189: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 299: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 280: view_xview[0] = 0 -> __view_set( e__VW.XView, 0, 0 )
+Converted builtin - line 62: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 63: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 64: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 72: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 73: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 74: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 157: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 171: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 179: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 179: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 183: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 187: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 188: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 299: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 281: view_yview[0] = 0 -> __view_set( e__VW.YView, 0, 0 )
+Converted builtin - line 40: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 53: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 62: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 63: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 64: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 72: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 73: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 74: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 157: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 299: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 311: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 404: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 406: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 448: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 454: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 471: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 495: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 40: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 53: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 53: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 62: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 63: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 64: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 72: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 73: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 74: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 171: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 179: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 179: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 183: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 187: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 188: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 311: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 311: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 471: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 495: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oTextField\Step_0.gml
+Converted builtin - line 24: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 24: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\oMessage\Create_0.gml
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oMessage\Draw_0.gml
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 34: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 35: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 39: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 17: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 17: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 34: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 35: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 39: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 17: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 34: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 35: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 39: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 17: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 34: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 35: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 39: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: instance inst_1D6C654F creation code
+Converted description /// @description /Start The Path///
+
+Converting GML script: instance inst_CC759B53 creation code
+Converted description /// @description /Start The Path///
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Missing audiogroup for sound: 'sound_Player_Jump' - setting to default audio group
+Missing audiogroup for sound: 'sound_Gravity_Switch' - setting to default audio group
+Missing audiogroup for sound: 'sound_Death' - setting to default audio group
+Missing audiogroup for sound: 'sound_Cursor' - setting to default audio group
+Missing audiogroup for sound: 'sound_Jump' - setting to default audio group
+Missing audiogroup for sound: 'sound_Selection' - setting to default audio group
+Missing audiogroup for sound: 'sound_Checkpoint' - setting to default audio group
+Missing audiogroup for sound: 'music_Title' - setting to default audio group
+Missing audiogroup for sound: 'music_Easy' - setting to default audio group
+Missing audiogroup for sound: 'music_Medium' - setting to default audio group
+Missing audiogroup for sound: 'music_Hard' - setting to default audio group
+Missing audiogroup for sound: 'music_Game_Over' - setting to default audio group
+Game speed set to 30
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script '__global_object_depths.gml'

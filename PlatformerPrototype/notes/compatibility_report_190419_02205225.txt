@@ -1,0 +1,227 @@
+Converting GML script: ${project_dir}\scripts\approach\approach.gml
+Converted description /// @description approach(current, target, amount)
+/// @param current
+/// @param  target
+/// @param  amount
+
+Converting GML script: ${project_dir}\scripts\smooth_approach\smooth_approach.gml
+Converted description /// @description smooth_approach(current, target, speed[0-1])
+/// @param current
+/// @param  target
+/// @param  speed[0-1]
+
+Converting GML script: ${project_dir}\scripts\on_ground\on_ground.gml
+Converted description /// @description on_ground()
+
+Converting GML script: ${project_dir}\scripts\check_collision\check_collision.gml
+Converted description /// @description check_collision(x_offset, y_offset)
+/// @param x_offset
+/// @param  y_offset
+
+Converting GML script: ${project_dir}\scripts\add_speed\add_speed.gml
+Converted description /// @description add_speed(speed, direction)
+/// @param speed
+/// @param  direction
+
+Converting GML script: ${project_dir}\scripts\set_speed\set_speed.gml
+Converted description /// @description set_speed(speed, direction)
+/// @param speed
+/// @param  direction
+
+Converting GML script: ${project_dir}\scripts\collision_multiple\collision_multiple.gml
+Converted description /// @description collision_multiple(x, y, object)
+/// @param x
+/// @param  y
+/// @param  object
+
+Converting GML script: ${project_dir}\scripts\collision_rectangle_multiple\collision_rectangle_multiple.gml
+Converted description /// @description collision_rectangle_multiple(x1, y1, x2, y2, object, prec, notme)
+/// @param x1
+/// @param  y1
+/// @param  x2
+/// @param  y2
+/// @param  object
+/// @param  prec
+/// @param  notme
+
+Converting GML script: ${project_dir}\scripts\collision_circle_multiple\collision_circle_multiple.gml
+Converted description /// @description collision_circle_multiple(x1, y1, radius, object, prec, notme)
+/// @param x1
+/// @param  y1
+/// @param  radius
+/// @param  object
+/// @param  prec
+/// @param  notme
+
+Converting GML script: ${project_dir}\scripts\mid_x\mid_x.gml
+Converted description /// @description mid_x()
+
+Converting GML script: ${project_dir}\scripts\mid_y\mid_y.gml
+Converted description /// @description mid_y()
+
+Converting GML script: ${project_dir}\scripts\line_of_sight\line_of_sight.gml
+Converted description /// @description line_of_sight(x1, y1, x2, y2, [precision])
+/// @param x1
+/// @param  y1
+/// @param  x2
+/// @param  y2
+/// @param  [precision]
+
+Converting GML script: ${project_dir}\scripts\mouse_over\mouse_over.gml
+Converted description /// @description mouse_over()
+
+Converting GML script: ${project_dir}\scripts\wrap\wrap.gml
+Converted description /// @description wrap(border)
+/// @param border
+
+Converting GML script: ${project_dir}\scripts\create_effect\create_effect.gml
+Converted description /// @description create_effect(x, y, sprite, animation_speed)
+/// @param x
+/// @param  y
+/// @param  sprite
+/// @param  animation_speed
+
+Converting GML script: ${project_dir}\scripts\ds_list_reverse\ds_list_reverse.gml
+Converted description /// @description ds_list_reverse(list_from, list_to)
+/// @param list_from
+/// @param  list_to
+
+Converting GML script: ${project_dir}\scripts\pathfinding_room_setup\pathfinding_room_setup.gml
+Converted description /// @description pathfinding_room_setup(grid_size, can_wrap, wall_nodes, [connect_horizontal], [connect_vertical])
+/// @param grid_size
+/// @param  can_wrap
+/// @param  wall_nodes
+/// @param  [connect_horizontal]
+/// @param  [connect_vertical]
+
+Converting GML script: ${project_dir}\scripts\pathfinder_setup\pathfinder_setup.gml
+Converted description /// @description pathfinder_setup(update_timer, reaction_time)
+/// @param update_timer
+/// @param  reaction_time
+
+Converting GML script: ${project_dir}\scripts\get_path\get_path.gml
+Converted description /// @description get_path(x1, y1, x2, y2, [avoid_danger?])
+/// @param x1
+/// @param  y1
+/// @param  x2
+/// @param  y2
+/// @param  [avoid_danger?]
+
+Converting GML script: ${project_dir}\scripts\node_distance\node_distance.gml
+Converted description /// @description node_distance(node1, node2)
+/// @param node1
+/// @param  node2
+
+Converting GML script: ${project_dir}\scripts\node_connect\node_connect.gml
+Converted description /// @description node_connect(node)
+/// @param node
+
+Converting GML script: ${project_dir}\scripts\create_node\create_node.gml
+Converted description /// @description create_node(x, y, [type])
+/// @param x
+/// @param  y
+/// @param  [type]
+
+Converting GML script: ${project_dir}\scripts\create_room_nodes\create_room_nodes.gml
+Converted description /// @description create_room_nodes(grid_size, create_wall_nodes)
+/// @param grid_size
+/// @param  create_wall_nodes
+
+Converting GML script: ${project_dir}\scripts\connect_all_nodes\connect_all_nodes.gml
+Converted description /// @description connect_all_nodes()
+
+Converting GML script: ${project_dir}\scripts\pathfinder_step\pathfinder_step.gml
+Converted description /// @description pathfinder_step()
+
+Converting GML script: ${project_dir}\scripts\pathfinder_draw_path\pathfinder_draw_path.gml
+Converted description /// @description pathfinder_draw_path()
+
+Converting GML script: ${project_dir}\scripts\get_node_x\get_node_x.gml
+Converted description /// @description get_node_x(x, y, node, can_wrap)
+/// @param x
+/// @param  y
+/// @param  node
+/// @param  can_wrap
+
+Font font0 has been converted to font family Berlin Sans FB (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\font0\font0.gms1.png
+Converting GML script: ${project_dir}\objects\o_pathfinding_control\Create_0.gml
+Converted description /// @description Enums
+Converted string - line 30: '&' -> "&"
+
+Converting GML script: ${project_dir}\objects\o_pathfinding_control\Step_2.gml
+Converted description /// @description Control
+Converted string - line 187: 'T' -> "T"
+Converted string - line 191: 'P' -> "P"
+
+Converting GML script: ${project_dir}\objects\o_pathfinding_control\Other_4.gml
+Converted description /// @description Set up pathfinding
+
+Converting GML script: ${project_dir}\objects\o_pathfinding_control\Draw_0.gml
+Converted builtin - line 43: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description Draw control
+
+Converting GML script: ${project_dir}\objects\o_pathfinding_object\Create_0.gml
+Converted description /// @description Set variables
+
+Converting GML script: ${project_dir}\objects\o_pathfinding_object\Step_2.gml
+Converted description /// @description Movement
+
+Converting GML script: ${project_dir}\objects\o_simple_ai_enemy\Step_2.gml
+Converted description /// @description Store old states
+
+Converting GML script: ${project_dir}\objects\o_simple_ai_enemy\Draw_0.gml
+Converted description /// @description Draw path
+
+Converting GML script: ${project_dir}\objects\o_node\Create_0.gml
+Converted description /// @description Set up
+
+Converting GML script: ${project_dir}\objects\o_node\Destroy_0.gml
+Converted description /// @description Clean up
+
+Converting GML script: ${project_dir}\objects\o_node\Other_10.gml
+Converted description /// @description Connect to nearby nodes
+
+Converting GML script: ${project_dir}\objects\o_node\Draw_0.gml
+Converted description /// @description Draw node & connections
+
+Converting GML script: ${project_dir}\objects\o_danger_zone\Draw_0.gml
+Converted description /// @description Draw the danger zone
+
+Converting GML script: ${project_dir}\objects\o_no_node_zone\Create_0.gml
+Converted description /// @description Set up
+
+Converting GML script: ${project_dir}\objects\o_no_node_zone\Draw_0.gml
+Converted description /// @description Draw if in test mode
+
+Converting GML script: ${project_dir}\objects\o_dust_effect\Create_0.gml
+Converted description /// @description Set variables
+
+Converting GML script: ${project_dir}\objects\o_dust_effect\Step_2.gml
+Converted description /// @description Delay & stick to objects
+
+Converting GML script: ${project_dir}\objects\o_dust_effect\Other_7.gml
+Converted description /// @description Destroy
+
+Converting GML script: ${project_dir}\objects\o_dust_effect\Draw_0.gml
+Converted description /// @description Draw effect
+
+Converting GML script: ${project_dir}\objects\objSwitchButton\Create_0.gml
+Converted description /// @description Set up
+
+Converting GML script: ${project_dir}\objects\objSwitchButton\Step_2.gml
+Converted description /// @description Hover, press & work
+
+Converting GML script: ${project_dir}\objects\objSwitchButton\Draw_0.gml
+Converted description /// @description Draw
+
+Added compatibility script 'action/event_inherited.gml'
+Added compatibility script 'd3d/d3d_set_fog.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'd3d/__init_d3d.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

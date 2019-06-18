@@ -1,0 +1,29 @@
+Converting GML script: ${project_dir}\objects\objControl\Create_0.gml
+Converted description /// @description Enums
+Converted string - line 30: '&' -> "&"
+
+Converting GML script: ${project_dir}\objects\objControl\Step_2.gml
+Converted description /// @description Control
+Converted string - line 187: 'T' -> "T"
+Converted string - line 191: 'P' -> "P"
+
+Converting GML script: ${project_dir}\objects\objControl\Other_4.gml
+Converted description /// @description Set up pathfinding
+
+Converting GML script: ${project_dir}\objects\objControl\Draw_0.gml
+Converted builtin - line 43: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description Draw control
+
+Converting GML script: ${project_dir}\objects\objObject\Create_0.gml
+Converted description /// @description Set variables
+
+Converting GML script: ${project_dir}\objects\objObject\Step_2.gml
+Converted description /// @description Movement
+
+Converting GML script: ${project_dir}\objects\objCharacter\Step_2.gml
+Converted description /// @description Store old states
+
+Converting GML script: ${project_dir}\objects\objCharacter\Draw_0.gml
+Converted description /// @description Draw path
+
+Updated compatibility script '__global_object_depths.gml'

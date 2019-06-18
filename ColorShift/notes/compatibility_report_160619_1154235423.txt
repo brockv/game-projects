@@ -1,0 +1,603 @@
+Converting GML script: ${project_dir}\scripts\Aura_Init\Aura_Init.gml
+Converted builtin - line 17: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 17: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  Aura_Init(ambient_alpha, ambient_colour, aa_enable)/// @param ambient_alpha
+/// @param  ambient_colour
+/// @param  aa_enable
+
+Converting GML script: ${project_dir}\scripts\Aura_ReInit\Aura_ReInit.gml
+Converted builtin - line 14: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 14: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  Aura_ReInit(ambient_alpha, ambient_colour);/// @param ambient_alpha
+/// @param  ambient_colour
+
+Converting GML script: ${project_dir}\scripts\Aura_Update\Aura_Update.gml
+Converted builtin - line 32: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 32: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  Aura_Update();
+
+Converting GML script: ${project_dir}\scripts\Aura_Draw\Aura_Draw.gml
+Converted builtin - line 9: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description  Aura_Draw();
+
+Converting GML script: ${project_dir}\scripts\Aura_Light_Init\Aura_Light_Init.gml
+Converted description /// @description  Aura_Light_Init(radius, colour, alpha, static);/// @param radius
+/// @param  colour
+/// @param  alpha
+/// @param  static
+
+Converting GML script: ${project_dir}\scripts\Aura_Light_ReInit\Aura_Light_ReInit.gml
+Converted description /// @description  Aura_Light_ReInit();
+
+Converting GML script: ${project_dir}\scripts\Aura_Light_Init_Fast\Aura_Light_Init_Fast.gml
+Converted description /// @description  Aura_Light_Init_Fast(xscale, yscale, angle, colour, alpha);/// @param xscale
+/// @param  yscale
+/// @param  angle
+/// @param  colour
+/// @param  alpha
+
+Converting GML script: ${project_dir}\scripts\Aura_Light_Update\Aura_Light_Update.gml
+Converted description /// @description  Aura_Light_Update(vertex_format, vertex_buffer);/// @param vertex_format
+/// @param  vertex_buffer
+
+Converting GML script: ${project_dir}\scripts\Aura_Light_Update_OLD\Aura_Light_Update_OLD.gml
+Converted description /// @description  Aura_Light_Update(vertex_format, vertex_buffer);/// @param vertex_format
+/// @param  vertex_buffer
+
+Converting GML script: ${project_dir}\scripts\Aura_Light_Draw\Aura_Light_Draw.gml
+Converted builtin - line 12: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 12: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description  Aura_Light_Draw();
+
+Converting GML script: ${project_dir}\scripts\Aura_Light_Draw_Fast\Aura_Light_Draw_Fast.gml
+Converted builtin - line 12: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 12: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description  Aura_Light_Draw_Fast();
+
+Converting GML script: ${project_dir}\scripts\Aura_Light_Free\Aura_Light_Free.gml
+Converted description /// @description  Aura_Light_Free();
+
+Converting GML script: ${project_dir}\scripts\in_view\in_view.gml
+Converted builtin - line 11: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 13: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 12: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 14: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 13: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 14: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  in_view();
+
+Converting GML script: ${project_dir}\scripts\in_light\in_light.gml
+Converted description /// @description  in_light();
+
+Converting GML script: ${project_dir}\scripts\Aura_Shadow_Caster_Box_Init\Aura_Shadow_Caster_Box_Init.gml
+Converted description /// @description  Aura_Shadow_Caster_Box_Init();
+
+Converting GML script: ${project_dir}\scripts\Aura_Shadow_Caster_Poly_Init\Aura_Shadow_Caster_Poly_Init.gml
+Converted description /// @description  Aura_Shadow_Caster_Poly_Init();
+
+Converting GML script: ${project_dir}\scripts\Aura_Shadow_Caster_Poly_Add_Point\Aura_Shadow_Caster_Poly_Add_Point.gml
+Converted description /// @description  Aura_Shadow_Caster_Poly_Add_Point(x, y);/// @param x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\Aura_Shadow_Caster_Circle_Init\Aura_Shadow_Caster_Circle_Init.gml
+Converted description /// @description  Aura_Shadow_Caster_Circle_Init(precision, radius);/// @param precision
+/// @param  radius
+
+Converting GML script: ${project_dir}\scripts\Approach\Approach.gml
+Converted description /// @description  Approach(start, end, shift);/// @param start
+/// @param  end
+/// @param  shift
+
+Converting GML script: ${project_dir}\scripts\OnGround\OnGround.gml
+Converted description /// @description  OnGround();
+
+Converting GML script: ${project_dir}\scripts\PlatformCheck\PlatformCheck.gml
+Converted description /// @description  PlatformCheck();
+
+Converting GML script: ${project_dir}\scripts\AssemblePixels\AssemblePixels.gml
+Converted description /// @description AssemblePixels(x,y,object,sprite,acceleration,pixel size,image blend,assemble)/// @param x
+/// @param y
+/// @param object
+/// @param sprite
+/// @param acceleration
+/// @param pixel size
+/// @param image blend
+/// @param assemble
+
+Converting GML script: ${project_dir}\scripts\MakerDie\MakerDie.gml
+Converted description /// @description MakerDie();
+
+Converting GML script: ${project_dir}\scripts\RandomColor\RandomColor.gml
+Converted description /// @description RandomColor();
+
+Converting GML script: ${project_dir}\scripts\SwitchNextCharacter\SwitchNextCharacter.gml
+Converted description /// @description SwitchNextCharacter();
+
+Converting GML script: ${project_dir}\scripts\SwitchPrevCharacter\SwitchPrevCharacter.gml
+Converted description /// @description SwitchPrevCharacter();
+
+Converting GML script: ${project_dir}\scripts\SwitchNextShape\SwitchNextShape.gml
+Converted description /// @description SwitchNextShape();
+
+Converting GML script: ${project_dir}\scripts\SwitchPrevShape\SwitchPrevShape.gml
+Converted description /// @description SwitchPrevShape();
+
+Converting GML script: ${project_dir}\scripts\UpdateStats\UpdateStats.gml
+Converted description /// @description UpdateStats();
+
+Converting GML script: ${project_dir}\scripts\UpdateView\UpdateView.gml
+Converted builtin - line 15: view_xview[0] = -(view_wview[0] / 2) + x -> __view_set( e__VW.XView, 0, -(view_wview[0] / 2) + x )
+Converted builtin - line 16: view_yview[0] = -(view_hview[0] / 2) + y -> __view_set( e__VW.YView, 0, -(view_hview[0] / 2) + y )
+Converted description /// @description UpdateView();
+Converted builtin - line 15: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 16: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\scripts\edgeds_init_scale\edgeds_init_scale.gml
+Converted builtin - line 19: view_wport[global.display_view] -> __view_get( e__VW.WPort, global.display_view )
+Converted builtin - line 20: view_hport[global.display_view] -> __view_get( e__VW.HPort, global.display_view )
+Converted description /// @description edgeds_init_scale(view);/// @param view
+
+Converting GML script: ${project_dir}\scripts\edgeds_set_scale\edgeds_set_scale.gml
+Converted builtin - line 77: view_wview[global.display_view] = (display_width*dpi)/global.display_zoom -> __view_set( e__VW.WView, global.display_view, (display_width*dpi)/global.display_zoom )
+Converted builtin - line 78: view_hview[global.display_view] = (display_height*dpi)/global.display_zoom -> __view_set( e__VW.HView, global.display_view, (display_height*dpi)/global.display_zoom )
+Converted builtin - line 113: view_wport[global.display_view] -> __view_get( e__VW.WPort, global.display_view )
+Converted builtin - line 79: view_wport[global.display_view] = (display_width*dpi)/global.display_zoom -> __view_set( e__VW.WPort, global.display_view, (display_width*dpi)/global.display_zoom )
+Converted builtin - line 113: view_hport[global.display_view] -> __view_get( e__VW.HPort, global.display_view )
+Converted builtin - line 80: view_hport[global.display_view] = (display_height*dpi)/global.display_zoom -> __view_set( e__VW.HPort, global.display_view, (display_height*dpi)/global.display_zoom )
+Converted description /// @description edgeds_set_scale(dpi mode, dpi override, minwidth, minheight, zoom);/// @param dpi mode
+/// @param  dpi override
+/// @param  minwidth
+/// @param  minheight
+/// @param  zoom
+
+Converting GML script: ${project_dir}\scripts\edgeds_set_width\edgeds_set_width.gml
+Converted builtin - line 77: view_wview[global.display_view] = (argument2*dpi)/global.display_zoom -> __view_set( e__VW.WView, global.display_view, (argument2*dpi)/global.display_zoom )
+Converted builtin - line 78: view_hview[global.display_view] = (display_height*dpi)/global.display_zoom -> __view_set( e__VW.HView, global.display_view, (display_height*dpi)/global.display_zoom )
+Converted builtin - line 113: view_wport[global.display_view] -> __view_get( e__VW.WPort, global.display_view )
+Converted builtin - line 79: view_wport[global.display_view] = (argument2*dpi)/global.display_zoom -> __view_set( e__VW.WPort, global.display_view, (argument2*dpi)/global.display_zoom )
+Converted builtin - line 113: view_hport[global.display_view] -> __view_get( e__VW.HPort, global.display_view )
+Converted builtin - line 80: view_hport[global.display_view] = (display_height*dpi)/global.display_zoom -> __view_set( e__VW.HPort, global.display_view, (display_height*dpi)/global.display_zoom )
+Converted description /// @description edgeds_set_width(dpi mode, dpi override, width, minheight, zoom);/// @param dpi mode
+/// @param  dpi override
+/// @param  width
+/// @param  minheight
+/// @param  zoom
+
+Converting GML script: ${project_dir}\scripts\edgeds_set_height\edgeds_set_height.gml
+Converted builtin - line 77: view_wview[global.display_view] = (display_width*dpi)/global.display_zoom -> __view_set( e__VW.WView, global.display_view, (display_width*dpi)/global.display_zoom )
+Converted builtin - line 78: view_hview[global.display_view] = (argument3*dpi)/global.display_zoom -> __view_set( e__VW.HView, global.display_view, (argument3*dpi)/global.display_zoom )
+Converted builtin - line 113: view_wport[global.display_view] -> __view_get( e__VW.WPort, global.display_view )
+Converted builtin - line 79: view_wport[global.display_view] = (display_width*dpi)/global.display_zoom -> __view_set( e__VW.WPort, global.display_view, (display_width*dpi)/global.display_zoom )
+Converted builtin - line 113: view_hport[global.display_view] -> __view_get( e__VW.HPort, global.display_view )
+Converted builtin - line 80: view_hport[global.display_view] = (argument3*dpi)/global.display_zoom -> __view_set( e__VW.HPort, global.display_view, (argument3*dpi)/global.display_zoom )
+Converted description /// @description edgeds_set_height(dpi mode, dpi override, minwidth, height, zoom);/// @param dpi mode
+/// @param  dpi override
+/// @param  minwidth
+/// @param  height
+/// @param  zoom
+
+Converting GML script: ${project_dir}\scripts\edgeds_set_screenres\edgeds_set_screenres.gml
+Converted builtin - line 78: view_wview[global.display_view] = (argument2*dpi)/global.display_zoom -> __view_set( e__VW.WView, global.display_view, (argument2*dpi)/global.display_zoom )
+Converted builtin - line 79: view_hview[global.display_view] = (argument3*dpi)/global.display_zoom -> __view_set( e__VW.HView, global.display_view, (argument3*dpi)/global.display_zoom )
+Converted builtin - line 114: view_wport[global.display_view] -> __view_get( e__VW.WPort, global.display_view )
+Converted builtin - line 80: view_wport[global.display_view] = (argument2*dpi)/global.display_zoom -> __view_set( e__VW.WPort, global.display_view, (argument2*dpi)/global.display_zoom )
+Converted builtin - line 114: view_hport[global.display_view] -> __view_get( e__VW.HPort, global.display_view )
+Converted builtin - line 81: view_hport[global.display_view] = (argument3*dpi)/global.display_zoom -> __view_set( e__VW.HPort, global.display_view, (argument3*dpi)/global.display_zoom )
+Converted description /// @description edgeds_set_screenres(dpi mode, dpi override, width, height, zoom);/// @param dpi mode
+/// @param  dpi override
+/// @param  width
+/// @param  height
+/// @param  zoom
+
+Converting GML script: ${project_dir}\scripts\edgeds_draw_background\edgeds_draw_background.gml
+Converted builtin - line 36: background_visible[argument3] = true -> __background_set( e__BG.Visible, argument3, true )
+Converted builtin - line 33: background_foreground[argument3] = argument4 -> __background_set( e__BG.Foreground, argument3, argument4 )
+Converted builtin - line 31: background_index[argument3] -> __background_get( e__BG.Index, argument3 )
+Converted builtin - line 32: background_index[argument3] = argument0 -> __background_set( e__BG.Index, argument3, argument0 )
+Converted builtin - line 45: background_x[argument3] = argument1 -> __background_set( e__BG.X, argument3, argument1 )
+Converted builtin - line 46: background_y[argument3] = argument2 -> __background_set( e__BG.Y, argument3, argument2 )
+Converted builtin - line 54: background_width[argument3] -> __background_get( e__BG.Width, argument3 )
+Converted builtin - line 61: background_height[argument3] -> __background_get( e__BG.Height, argument3 )
+Converted builtin - line 62: background_height[argument3] -> __background_get( e__BG.Height, argument3 )
+Converted builtin - line 70: background_height[argument3] -> __background_get( e__BG.Height, argument3 )
+Converted builtin - line 34: background_htiled[argument3] = argument5 -> __background_set( e__BG.HTiled, argument3, argument5 )
+Converted builtin - line 35: background_vtiled[argument3] = argument5 -> __background_set( e__BG.VTiled, argument3, argument5 )
+Converted builtin - line 54: background_xscale[argument3] -> __background_get( e__BG.XScale, argument3 )
+Converted builtin - line 55: background_xscale[argument3] -> __background_get( e__BG.XScale, argument3 )
+Converted builtin - line 62: background_xscale[argument3] -> __background_get( e__BG.XScale, argument3 )
+Converted builtin - line 70: background_xscale[argument3] -> __background_get( e__BG.XScale, argument3 )
+Converted builtin - line 63: background_xscale[argument3] = background_yscale[argument3] -> __background_set( e__BG.XScale, argument3, background_yscale[argument3] )
+Converted builtin - line 71: background_xscale[argument3] = background_yscale[argument3] -> __background_set( e__BG.XScale, argument3, background_yscale[argument3] )
+Converted builtin - line 54: background_yscale[argument3] -> __background_get( e__BG.YScale, argument3 )
+Converted builtin - line 61: background_yscale[argument3] -> __background_get( e__BG.YScale, argument3 )
+Converted builtin - line 62: background_yscale[argument3] -> __background_get( e__BG.YScale, argument3 )
+Converted builtin - line 70: background_yscale[argument3] -> __background_get( e__BG.YScale, argument3 )
+Converted builtin - line 23: view_wview[global.display_view] -> __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 24: view_hview[global.display_view] -> __view_get( e__VW.HView, global.display_view )
+Converted description /// @description edgeds_draw_background(background, x, y, index, foreground, tile, scale mode);/// @param background
+/// @param  x
+/// @param  y
+/// @param  index
+/// @param  foreground
+/// @param  tile
+/// @param  scale mode
+Converted builtin - line 61: background_xscale[argument3] = __background_get( e__BG.YScale, argument3 )*(display_width/(__background_get( e__BG.Width, argument3 )*__background_get( e__BG.XScale, argument3 ))) -> __background_set( e__BG.XScale, argument3, __background_get( e__BG.YScale, argument3 )*(display_width/(__background_get( e__BG.Width, argument3 )*__background_get( e__BG.XScale, argument3 ))) )
+Converted builtin - line 70: background_yscale[argument3] -> __background_get( e__BG.YScale, argument3 )
+Converted builtin - line 78: background_yscale[argument3] -> __background_get( e__BG.YScale, argument3 )
+Converted builtin - line 62: background_yscale[argument3] = __background_get( e__BG.XScale, argument3 ) -> __background_set( e__BG.YScale, argument3, __background_get( e__BG.XScale, argument3 ) )
+Converted builtin - line 69: background_yscale[argument3] = __background_get( e__BG.XScale, argument3 )*(display_height/(__background_get( e__BG.Height, argument3 )*__background_get( e__BG.YScale, argument3 ))) -> __background_set( e__BG.YScale, argument3, __background_get( e__BG.XScale, argument3 )*(display_height/(__background_get( e__BG.Height, argument3 )*__background_get( e__BG.YScale, argument3 ))) )
+Converted builtin - line 77: background_yscale[argument3] = __background_get( e__BG.XScale, argument3 )*(display_height/(__background_get( e__BG.Height, argument3 )*__background_get( e__BG.YScale, argument3 ))) -> __background_set( e__BG.YScale, argument3, __background_get( e__BG.XScale, argument3 )*(display_height/(__background_get( e__BG.Height, argument3 )*__background_get( e__BG.YScale, argument3 ))) )
+
+Converting GML script: ${project_dir}\scripts\edgeds_draw_sprite\edgeds_draw_sprite.gml
+Converted builtin - line 68: view_xview[global.display_view] -> __view_get( e__VW.XView, global.display_view )
+Converted builtin - line 73: view_yview[global.display_view] -> __view_get( e__VW.YView, global.display_view )
+Converted builtin - line 29: view_wview[global.display_view] -> __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 30: view_hview[global.display_view] -> __view_get( e__VW.HView, global.display_view )
+Converted description /// @description edgeds_draw_sprite(sprite, index, x, y, rot, color, alpha, scale mode, notme);/// @param sprite
+/// @param  index
+/// @param  x
+/// @param  y
+/// @param  rot
+/// @param  color
+/// @param  alpha
+/// @param  scale mode
+/// @param  notme
+
+Converting GML script: ${project_dir}\scripts\edgeds_draw_view\edgeds_draw_view.gml
+Converted builtin - line 88: view_xview[argument0] -> __view_get( e__VW.XView, argument0 )
+Converted builtin - line 88: view_yview[argument0] -> __view_get( e__VW.YView, argument0 )
+Converted builtin - line 26: view_wview[global.display_view] -> __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 38: view_wview[argument0] -> __view_get( e__VW.WView, argument0 )
+Converted builtin - line 39: view_wview[argument0] -> __view_get( e__VW.WView, argument0 )
+Converted builtin - line 52: view_wview[argument0] -> __view_get( e__VW.WView, argument0 )
+Converted builtin - line 67: view_wview[argument0] -> __view_get( e__VW.WView, argument0 )
+Converted builtin - line 74: view_wview[argument0] -> __view_get( e__VW.WView, argument0 )
+Converted builtin - line 88: view_wview[argument0] -> __view_get( e__VW.WView, argument0 )
+Converted builtin - line 27: view_hview[global.display_view] -> __view_get( e__VW.HView, global.display_view )
+Converted builtin - line 38: view_hview[argument0] -> __view_get( e__VW.HView, argument0 )
+Converted builtin - line 39: view_hview[argument0] -> __view_get( e__VW.HView, argument0 )
+Converted builtin - line 56: view_hview[argument0] -> __view_get( e__VW.HView, argument0 )
+Converted builtin - line 63: view_hview[argument0] -> __view_get( e__VW.HView, argument0 )
+Converted builtin - line 75: view_hview[argument0] -> __view_get( e__VW.HView, argument0 )
+Converted builtin - line 88: view_hview[argument0] -> __view_get( e__VW.HView, argument0 )
+Converted builtin - line 30: view_visible[argument0] = false -> __view_set( e__VW.Visible, argument0, false )
+Converted description /// @description edgeds_draw_view(view, x, y, rot, color, alpha, scale mode);/// @param view
+/// @param  x
+/// @param  y
+/// @param  rot
+/// @param  color
+/// @param  alpha
+/// @param  scale mode
+
+Converting GML script: ${project_dir}\scripts\move_link\move_link.gml
+Converted description /// @description move_link(child, pos link, scale link);/// @param child
+/// @param  pos link
+/// @param  scale link
+
+Converting GML script: ${project_dir}\scripts\scr_collision_detector\scr_collision_detector.gml
+Converted description /// @description scr_collision_detector(direction)/// @param direction
+
+Converting GML script: ${project_dir}\objects\oGame\Create_0.gml
+Converted description /// @description  Camera + Assemble Images
+
+Converting GML script: ${project_dir}\objects\oGame\Alarm_0.gml
+Converted description /// @description  Turn off screenshake
+
+Converting GML script: ${project_dir}\objects\oGame\Step_2.gml
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_xview[0] += xcamo -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (xcamo) )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 9: view_yview[0] += ycamo -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (ycamo) )
+Converted builtin - line 4: view_wport[0] -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 5: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted description /// @description  Camera
+Converted builtin - line 4: view_xview[0] = max(0, min(__view_get( e__VW.XView, 0 ), room_width  - __view_get( e__VW.WPort, 0 ))) -> __view_set( e__VW.XView, 0, max(0, min(__view_get( e__VW.XView, 0 ), room_width  - __view_get( e__VW.WPort, 0 ))) )
+Converted builtin - line 5: view_yview[0] = max(0, min(__view_get( e__VW.YView, 0 ), room_height - __view_get( e__VW.HPort, 0 ))) -> __view_set( e__VW.YView, 0, max(0, min(__view_get( e__VW.YView, 0 ), room_height - __view_get( e__VW.HPort, 0 ))) )
+
+Converting GML script: ${project_dir}\objects\oCamera\Step_0.gml
+Converted builtin - line 16: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 13: view_xview[0] = -(view_wview[0] / 2) + x -> __view_set( e__VW.XView, 0, -(view_wview[0] / 2) + x )
+Converted builtin - line 17: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 14: view_yview[0] = -(view_hview[0] / 2) + y -> __view_set( e__VW.YView, 0, -(view_hview[0] / 2) + y )
+Converted builtin - line 16: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 17: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  Update camera position.
+Converted builtin - line 16: view_xview = clamp(__view_get( e__VW.XView, 0 ), 0, room_width - __view_get( e__VW.WView, 0 )) -> __view_set( e__VW.XView, 0, clamp(__view_get( e__VW.XView, 0 ), 0, room_width - __view_get( e__VW.WView, 0 )) )
+Converted builtin - line 17: view_yview = clamp(__view_get( e__VW.YView, 0 ), 0, room_height - __view_get( e__VW.HView, 0 )) -> __view_set( e__VW.YView, 0, clamp(__view_get( e__VW.YView, 0 ), 0, room_height - __view_get( e__VW.HView, 0 )) )
+Converted builtin - line 13: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 14: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oResolution\Create_0.gml
+Converted description /// @description  Initialize variables.
+
+Converting GML script: ${project_dir}\objects\oResolution\Keyboard_101.gml
+Converted description /// @description  Toggle fullscreen.
+
+Converting GML script: ${project_dir}\objects\oResolution\Keyboard_99.gml
+Converted builtin - line 4: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 6: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 8: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_wview = 1920 -> __view_set( e__VW.WView, 0, 1920 )
+Converted builtin - line 5: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 6: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 7: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 8: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 3: view_hview = 1080 -> __view_set( e__VW.HView, 0, 1080 )
+Converted description /// @description  1920 x 1080 Resolution.
+Converted builtin - line 4: view_wport = __view_get( e__VW.WView, 0 ) -> __view_set( e__VW.WPort, 0, __view_get( e__VW.WView, 0 ) )
+Converted builtin - line 5: view_hport = __view_get( e__VW.HView, 0 ) -> __view_set( e__VW.HPort, 0, __view_get( e__VW.HView, 0 ) )
+
+Converting GML script: ${project_dir}\objects\oResolution\Keyboard_98.gml
+Converted builtin - line 4: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 6: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 8: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_wview = 1600 -> __view_set( e__VW.WView, 0, 1600 )
+Converted builtin - line 5: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 6: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 7: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 8: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 3: view_hview = 1024 -> __view_set( e__VW.HView, 0, 1024 )
+Converted description /// @description  1600 x 1024 Resolution.
+Converted builtin - line 4: view_wport = __view_get( e__VW.WView, 0 ) -> __view_set( e__VW.WPort, 0, __view_get( e__VW.WView, 0 ) )
+Converted builtin - line 5: view_hport = __view_get( e__VW.HView, 0 ) -> __view_set( e__VW.HPort, 0, __view_get( e__VW.HView, 0 ) )
+
+Converting GML script: ${project_dir}\objects\oResolution\Keyboard_97.gml
+Converted builtin - line 4: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 6: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 8: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_wview = 1280 -> __view_set( e__VW.WView, 0, 1280 )
+Converted builtin - line 5: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 6: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 7: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 8: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 3: view_hview = 720 -> __view_set( e__VW.HView, 0, 720 )
+Converted description /// @description  1280 x 720 Resolution.
+Converted builtin - line 4: view_wport = __view_get( e__VW.WView, 0 ) -> __view_set( e__VW.WPort, 0, __view_get( e__VW.WView, 0 ) )
+Converted builtin - line 5: view_hport = __view_get( e__VW.HView, 0 ) -> __view_set( e__VW.HPort, 0, __view_get( e__VW.HView, 0 ) )
+
+Converting GML script: ${project_dir}\objects\oResolution\Keyboard_96.gml
+Converted builtin - line 4: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 6: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 8: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_wview = 640 -> __view_set( e__VW.WView, 0, 640 )
+Converted builtin - line 5: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 6: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 7: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 8: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 3: view_hview = 480 -> __view_set( e__VW.HView, 0, 480 )
+Converted description /// @description  640 x 480 Resolution.
+Converted builtin - line 4: view_wport = __view_get( e__VW.WView, 0 ) -> __view_set( e__VW.WPort, 0, __view_get( e__VW.WView, 0 ) )
+Converted builtin - line 5: view_hport = __view_get( e__VW.HView, 0 ) -> __view_set( e__VW.HPort, 0, __view_get( e__VW.HView, 0 ) )
+
+Converting GML script: ${project_dir}\objects\oWindowScaler\Create_0.gml
+Converted description /// @description Initialize display scaling.
+
+Converting GML script: ${project_dir}\objects\oWindowScaler\Step_0.gml
+Converted description /// @description Calculate and set the display scale.
+
+Converting GML script: ${project_dir}\objects\oWindowScaler\Draw_64.gml
+Converted builtin - line 20: view_wport[global.display_view] -> __view_get( e__VW.WPort, global.display_view )
+Converted builtin - line 22: view_wport[global.display_view] -> __view_get( e__VW.WPort, global.display_view )
+Converted builtin - line 20: view_hport[global.display_view] -> __view_get( e__VW.HPort, global.display_view )
+Converted builtin - line 22: view_hport[global.display_view] -> __view_get( e__VW.HPort, global.display_view )
+
+Converting GML script: ${project_dir}\objects\oParEntity\Create_0.gml
+Converted description /// @description  Initialize variables.
+
+Converting GML script: ${project_dir}\objects\oParEntity\Step_2.gml
+Converted description /// @description  Handle sub-pixel movement.
+
+Converting GML script: ${project_dir}\objects\oParEntity\Step_1.gml
+Converted description /// @description  Collisions.
+
+Converting GML script: ${project_dir}\objects\obj_Aura_Control\Create_0.gml
+Converted description /// @description  Create Aura Lighting Engine.
+
+Converting GML script: ${project_dir}\objects\obj_Aura_Control\Other_5.gml
+Converted description /// @description  Free memory from lighting.
+
+Converting GML script: ${project_dir}\objects\obj_Aura_Control\Draw_0.gml
+Converted description /// @description  Update and draw lighting.
+
+Converting GML script: ${project_dir}\objects\obj_Aura_Point_Light\Create_0.gml
+Converted description /// @description  Initialize light.
+
+Converting GML script: ${project_dir}\objects\obj_Aura_Mouse_Light\Step_0.gml
+Converted description /// @description  Update the sensor with the active player object.
+
+Converting GML script: ${project_dir}\objects\obj_Aura_ShadowCaster_Box\Create_0.gml
+Converted description /// @description  Create shadow casting surfaces.
+
+Converting GML script: ${project_dir}\objects\obj_Aura_ShadowCaster_Door\Create_0.gml
+Converted description /// @description  Change from Static to Dynamic light.
+
+Converting GML script: ${project_dir}\objects\obj_Aura_ShadowCaster_Door\Alarm_1.gml
+Converted description /// @description Closes the door.
+
+Converting GML script: ${project_dir}\objects\obj_Aura_ShadowCaster_Door\Alarm_0.gml
+Converted description /// @description Opens the door.
+
+Converting GML script: ${project_dir}\objects\oPlayer\Create_0.gml
+Converted description /// @description  Initialize Variables.
+
+Converting GML script: ${project_dir}\objects\oPlayer\Alarm_0.gml
+Converted description /// @description  Wall Sticking
+
+Converting GML script: ${project_dir}\objects\oPlayer\Step_2.gml
+Converted description /// @description  Inherit Entity
+
+Converting GML script: ${project_dir}\objects\oPlayer\Step_1.gml
+Converted description /// @description  Squash and Stretch + Dust Particles
+
+Converting GML script: ${project_dir}\objects\oPlayer\Step_0.gml
+Converted description /// @description  Movement
+Converted string - line 14: 'E' -> "E"
+Converted string - line 15: 'Q' -> "Q"
+
+Converting GML script: ${project_dir}\objects\oPlayer\Draw_0.gml
+Converted description /// @description  Draw the sprite.
+
+Converting GML script: ${project_dir}\objects\oExplode\Create_0.gml
+Converted description /// @description  Initialize exploding variables.
+
+Converting GML script: ${project_dir}\objects\oExplode\Alarm_0.gml
+Converted description /// @description  Destroy the exploded object.
+
+Converting GML script: ${project_dir}\objects\oSensor\Step_0.gml
+Converted description /// @description  Update the sensor with the active player object.
+
+Converting GML script: ${project_dir}\objects\oBlock\Create_0.gml
+Converted description /// @description  Create shadow casting surfaces
+
+Converting GML script: ${project_dir}\objects\oBlockBlack\Create_0.gml
+Converted description /// @description  Initialize variables.
+
+Converting GML script: ${project_dir}\objects\oBlockBlack\Step_2.gml
+Converted description /// @description  Destroy player.
+
+Converting GML script: ${project_dir}\objects\oBlockWhite\Create_0.gml
+Converted description /// @description  Initialize variables.
+
+Converting GML script: ${project_dir}\objects\oBlockWhite\Step_2.gml
+Converted description /// @description  Destroy player.
+
+Converting GML script: ${project_dir}\objects\oJumpThru\Create_0.gml
+Converted description /// @description  Create shadow casting surfaces
+
+Converting GML script: ${project_dir}\objects\oBounceMover\Create_0.gml
+Converted description /// @description  Create shadow casting surfaces
+
+Converting GML script: ${project_dir}\objects\oBounceMover\Step_2.gml
+Converted description /// @description  Handle sub-pixel movement
+
+Converting GML script: ${project_dir}\objects\oBounceMover\Step_1.gml
+Converted description /// @description  Check for player contact.
+
+Converting GML script: ${project_dir}\objects\oBounceMover\Draw_0.gml
+Converted description /// @description  Draw the platform
+
+Converting GML script: ${project_dir}\objects\oRailMoverH\Create_0.gml
+Converted description /// @description  Create shadow casting surfaces
+
+Converting GML script: ${project_dir}\objects\oRailMoverH\Step_2.gml
+Converted description /// @description  Handle Sub-Pixel Movement
+
+Converting GML script: ${project_dir}\objects\oRailMoverH\Draw_0.gml
+Converted description /// @description  Draw the Platform
+
+Converting GML script: ${project_dir}\objects\oRailMoverV\Create_0.gml
+Converted description /// @description  Create shadow casting surfaces
+
+Converting GML script: ${project_dir}\objects\oRailMoverV\Step_2.gml
+Converted description /// @description  Handle Sub-Pixel Movement
+
+Converting GML script: ${project_dir}\objects\oRailMoverV\Draw_0.gml
+Converted description /// @description Draw the Platform
+
+Converting GML script: ${project_dir}\objects\oCircleMover\Create_0.gml
+Converted description /// @description  Create shadow casting surfaces
+
+Converting GML script: ${project_dir}\objects\oCircleMover\Step_2.gml
+Converted description /// @description  Handle sub-pixel movement
+
+Converting GML script: ${project_dir}\objects\oCircleMover\Step_0.gml
+Converted description /// @description Movement
+
+Converting GML script: ${project_dir}\objects\oCircleMover\Draw_0.gml
+Converted description /// @description Draw platform and circle
+
+Converting GML script: ${project_dir}\objects\oSwitchMoverH\Create_0.gml
+Converted description /// @description  Create shadow casting surfaces
+
+Converting GML script: ${project_dir}\objects\oSwitchMoverH\Step_2.gml
+Converted description /// @description  Handle sub-pixel movement.
+
+Converting GML script: ${project_dir}\objects\oSwitchMoverH\Step_1.gml
+Converted description /// @description  Switch directions / image.
+
+Converting GML script: ${project_dir}\objects\oSwitchMoverH\Draw_0.gml
+Converted description /// @description  Draw the platform.
+
+Converting GML script: ${project_dir}\objects\oSwitchMoverV\Create_0.gml
+Converted description /// @description  Create shadow casting surfaces
+
+Converting GML script: ${project_dir}\objects\oSwitchMoverV\Step_2.gml
+Converted description /// @description  Handle sub-pixel movement.
+
+Converting GML script: ${project_dir}\objects\oSwitchMoverV\Step_1.gml
+Converted description /// @description  Switch directions / image.
+
+Converting GML script: ${project_dir}\objects\oSwitchMoverV\Draw_0.gml
+Converted description /// @description  Draw the platform.
+
+Converting GML script: ${project_dir}\objects\oDoorV\Create_0.gml
+Converted description /// @description  Create shadow casting surfaces
+
+Converting GML script: ${project_dir}\objects\oDoorV\Alarm_1.gml
+Converted description /// @description Closes the door.
+
+Converting GML script: ${project_dir}\objects\oDoorV\Alarm_0.gml
+Converted description /// @description  Opens the door.
+
+Converting GML script: ${project_dir}\objects\oDoorV\Step_0.gml
+Converted description /// @description  Update depth.
+
+Converting GML script: ${project_dir}\objects\oDoorH\Create_0.gml
+Converted description /// @description  Create shadow casting surfaces
+
+Converting GML script: ${project_dir}\objects\oDoorH\Alarm_1.gml
+Converted description /// @description Closes the door.
+
+Converting GML script: ${project_dir}\objects\oDoorH\Alarm_0.gml
+Converted description /// @description  Opens the door.
+
+Converting GML script: ${project_dir}\objects\oDoorH\Step_0.gml
+Converted description /// @description  Update depth.
+
+Converting GML script: ${project_dir}\objects\oPixel\Alarm_1.gml
+Converted description /// @description Disassemble Image
+
+Converting GML script: ${project_dir}\objects\oPixel\Alarm_0.gml
+Converted description /// @description Assemble Image
+
+Converting GML script: ${project_dir}\objects\oPixel\Draw_0.gml
+Converted description /// @description Draw the pixels
+
+Converting GML script: ${project_dir}\objects\oPixelMaker\Step_0.gml
+Converted description /// @description Create pixels
+
+Converting GML script: ${project_dir}\objects\oPixelMakerFast\Step_0.gml
+Converted description /// @description Create pixels
+
+Converting GML script: ${project_dir}\objects\obj_gun\Step_0.gml
+Converted description /// @description item floating and gravity
+
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Missing audiogroup for sound: 'snd_Jump' - setting to default audio group
+Game speed set to 30
+Added compatibility script 'action/action_color.gml'
+Added compatibility script 'action/action_current_room.gml'
+Added compatibility script 'action/action_end_game.gml'
+Added compatibility script 'background/__background_get.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'draw/draw_set_blend_mode_ext.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
