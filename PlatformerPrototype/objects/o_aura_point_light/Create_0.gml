@@ -24,6 +24,7 @@
 sprite_index = s_aura_point_light;
 
 // Now initialise the light (see the script for the arguments)
-Aura_Light_Init(128, make_color_rgb(random(256), random(256), random(256)), 0.8 + random(0.2), true);
+//Aura_Light_Init(128, make_color_rgb(random(256), random(256), random(256)), 0.8 + random(0.2), true);
+Aura_Light_Init(128, c_white, 0.8, true);
 
 

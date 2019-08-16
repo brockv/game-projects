@@ -2,12 +2,12 @@
 // This is a persistent object, and will never be destroyed during the game.
 
 // Set the size of the GUI to the size of the camera of the game so that everything draws correctly
-globalvar view_width,view_heigth;
+globalvar view_width,view_height;
 view_width	= camera_get_view_width(view_camera[0]);
-view_heigth = camera_get_view_height(view_camera[0]);
+view_height = camera_get_view_height(view_camera[0]);
 
 // Set GUI to the correct size
-display_set_gui_size(view_width,view_heigth);
+display_set_gui_size(view_width, view_height);
 
 // Create and set a custom font
 draw_set_font(fnt_game_text);
@@ -21,7 +21,7 @@ last_level	 = -4;	// Used to save the last level player has visited. (-4 == noon
 
 // Menu variables
 globalvar menu_active;
-menu_active		= 1;	// Set to true -- display main menu
+menu_active	= 1;	// Set to true -- display main menu
 
 #region // Controller input globals
 globalvar k_up, k_left, k_down, k_right, k_enter, k_dash, k_jump_pressed, k_jump_released, k_charge_pressed, k_charge_released;
@@ -50,24 +50,24 @@ k_charge_released	= 0;
 
 #region // Camera and screenshake
 globalvar screenshake, screenshake_on, screenshake_amount_x, screenshake_amount_y, screenshake_timer, screenshake_max_timer;
-screenshake				= 0;  // Is screenshake currently active
-screenshake_on			= 1;  // Is screenshake enabled
-screenshake_amount_x	= 0;  // Screenshake x-axis shake amount
-screenshake_amount_y	= 0;  // Screenshake y-axis shake amount
-screenshake_max_timer	= 15; // How many frames the screenshake will run
-screenshake_timer		= screenshake_max_timer; 
+screenshake			  = 0;  // Is screenshake currently active
+screenshake_on		  = 1;  // Is screenshake enabled
+screenshake_amount_x  = 0;  // Screenshake x-axis shake amount
+screenshake_amount_y  = 0;  // Screenshake y-axis shake amount
+screenshake_max_timer = 15; // How many frames the screenshake will run
+screenshake_timer	  = screenshake_max_timer; 
 #endregion
 
 #region // Sound variables
 globalvar sound_effects_gain, sound_music_gain, emitter_sound_effects, emitter_sound_music;
 
 // Emitters
-emitter_sound_music		= audio_emitter_create(); // Create an audio emmitter -- all sounds effects will be played using this sound emitter (Changing the sound emitter gain(volume) will change the gain(volume) for all music using this emitter)
-emitter_sound_effects	= audio_emitter_create(); // Same as above
+emitter_sound_music	  = audio_emitter_create(); // Create an audio emmitter -- all sounds effects will be played using this sound emitter (Changing the sound emitter gain(volume) will change the gain(volume) for all music using this emitter)
+emitter_sound_effects = audio_emitter_create(); // Same as above
 
 // Gain and volume
-sound_music_gain	= 0.5;	// Starts on 50 percent
-sound_effects_gain	= 0.5;	// Starts on 50 percent
+sound_music_gain   = 0.5; // Starts on 50 percent
+sound_effects_gain = 0.5; // Starts on 50 percent
 
 // Set emitters to play at correct volume.
 audio_emitter_gain(emitter_sound_music,sound_music_gain);
@@ -75,6 +75,14 @@ audio_emitter_gain(emitter_sound_effects,sound_effects_gain);
 
 #endregion
 
+#region // Hidden tile variables
+globalvar u_hidden_tile_alpha, hidden_tile_alpha, layer_fake, map_fake;
+
+#endregion
+
 // FPS timer
-fps_timer = 30; // every 30 frames update fps
-fps_amout = 0;
+fps_timer  = 30; // every 30 frames update fps
+fps_amount = 0;
+
+// Play title music
+audio_play_sound_on(emitter_sound_music, a_music_menu, true, 7);

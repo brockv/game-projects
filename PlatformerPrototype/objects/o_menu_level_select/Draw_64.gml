@@ -1,17 +1,17 @@
 /// @description Draw menu
 
 // Set starting locations of the top left corner of the menu to start drawing from
-var _start_draw_x = room_width / 2 - (space * 3);
-var _start_draw_y = room_height / 2 - space;
+var _start_draw_x = vw_ / 2 - (space * 3);
+var _start_draw_y = vh_ / 2 - space;
 var _select_width = sprite_get_width(s_select) / 2; // Get radius of the sprite
 
 // Draw gray box around screen ot darken screen a bit
 draw_set_alpha(0.7);
-draw_rectangle_color(-10, -10, room_width + 10, room_height + 10, c_black, c_black, c_black, c_black, false);
+draw_rectangle_color(-10, -10, vw_ + 10, vh_ + 10, c_black, c_black, c_black, c_black, false);
 draw_set_alpha(1);
 
 // Draw green square in background
-draw_sprite_ext(s_level_select_square, world_number_, room_width / 2, room_height / 2, 1, 1, 45, c_ltgray, 1);
+draw_sprite_ext(s_level_select_square, world_number_, vw_ / 2, vh_ / 2, 1, 1, 45, c_ltgray, 1);
 
 // Draw box around currently selected level
 var box_color = c_ltgray;

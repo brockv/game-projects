@@ -18,5 +18,8 @@ void main()
 	if ((dist > playerPosition.z) && (gl_FragColor.a > 0.0)) {
 		float falloff = dist / playerPosition.z; // Determine the fall off distance
 		gl_FragColor.a = mix(0.8, 0.3, falloff); // Set the alpha value
-	}
+	} //else {
+	//	float falloff = dist * playerPosition.z; // Determine the fall off distance
+	//	gl_FragColor.a = mix(0.8, 0.3, falloff); // Set the alpha value
+	//}
 }

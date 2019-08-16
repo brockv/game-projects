@@ -1,5 +1,7 @@
 /// @description Initialize variables
 
+event_inherited();
+
 // Create menu arrays
 menu[0] = "World: ";	// Select world
 menu[1] = "Level: ";	// Select level

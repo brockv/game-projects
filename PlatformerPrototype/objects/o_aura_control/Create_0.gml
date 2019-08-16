@@ -42,10 +42,11 @@
 
 // You give an alpha value for the ambience colour. This value is from 1 to 0, with 
 // a larger value indicating brighter ambient light. The colour is the "tint" that 
-// you ewant the ambient light to have. You can also enable anti-aliasing and tell 
+// you want the ambient light to have. You can also enable anti-aliasing and tell 
 // Aura which view to use (set to -1 if you want no views).
 
-Aura_Init(0.6, c_dkgray, true, 0, "grass", 2);
+tile_id_ = layer_get_id("tiles");
+Aura_Init(0.6, c_dkgray, true, 0, tile_id_, 0);
 
 // This script creates two further variables which you can use:
 //

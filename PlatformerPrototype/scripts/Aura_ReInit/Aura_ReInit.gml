@@ -14,32 +14,26 @@
 var count = 0;	// This variable will be used to check that a surface has actually been created
 
 // Check the surface exists
-if !surface_exists(aura_surface)
-{
-// It doesn't so attempt to recreate it
-while (!surface_exists(aura_surface) && count < argument0)
-	{
-	if aura_view > -1
-	    {
-		var _vw = camera_get_view_width(view_camera[aura_view]);
-		var _vh = camera_get_view_height(view_camera[aura_view]);
-	    aura_surface = surface_create(_vw, _vh);
-	    }
-	else
-	    {
-	    aura_surface = surface_create(room_width, room_height);
-	    }
-	count++;
+if (!surface_exists(aura_surface)) {
+	// It doesn't so attempt to recreate it
+	while (!surface_exists(aura_surface) && count < argument[0]) {
+		if (aura_view > -1) {
+			var _vw = camera_get_view_width(view_camera[aura_view]);
+			var _vh = camera_get_view_height(view_camera[aura_view]);
+		    aura_surface = surface_create(_vw, _vh);
+		} else {
+		    aura_surface = surface_create(room_width, room_height);
+		}
+		count++;
 	}
-// If it STILL doesn't exist, return an error
-if count >= argument0
-	{
-	// Show the user a message...
-	show_message("Surface error - There may not be enough memory to run this game!");
-	// This script returns "false" when it fails so you can handle it however you want.
-	// By default it calls "game_end" after showing the user the above message, but you can 
-	// handle this how you wish by editing the Aura_Update script.
-	return false
+	// If it STILL doesn't exist, return an error
+	if (count >= argument[0]) {
+		// Show the user a message...
+		show_message("Surface error - There may not be enough memory to run this game!");
+		// This script returns "false" when it fails so you can handle it however you want.
+		// By default it calls "game_end" after showing the user the above message, but you can 
+		// handle this how you wish by editing the Aura_Update script.
+		return false
 	}
 }
 

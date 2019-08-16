@@ -6,12 +6,12 @@
 // being used, "noone" (-4) if there is no light controller or -1 if the variable
 // doesn't exist in the controller instance.
 
-if instance_exists(o_aura_control)
-{
-if variable_instance_exists(o_aura_control, "aura_view")
-	{
-	return o_aura_control.aura_view;
+if (instance_exists(o_aura_control)) {
+	if (variable_instance_exists(o_aura_control, "aura_view")) {
+		return o_aura_control.aura_view;
+	} else {
+		return -1;
 	}
-else return -1;
+} else {
+	return noone;
 }
-else return noone;

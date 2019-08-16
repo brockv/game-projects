@@ -1,4 +1,4 @@
-///@description Flash alarm
+///@description Flicker alarm
 
 // Give the light a flicker effect
 if (aura_light_alpha < 1) {
@@ -8,5 +8,5 @@ if (aura_light_alpha < 1) {
 }
 
 // Reset the alarm
-alarm[0] = 0.08 * room_speed;
+alarm[0] = 0.1 * room_speed;
 

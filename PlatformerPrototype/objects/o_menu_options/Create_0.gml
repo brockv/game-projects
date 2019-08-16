@@ -1,5 +1,6 @@
 /// @description Initialize variables
 
+event_inherited();
 
 // Current options: screenshake, volume sliders
 

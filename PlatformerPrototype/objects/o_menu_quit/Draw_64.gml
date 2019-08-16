@@ -2,22 +2,22 @@
 
 // Draw gray box around screen to darken screen a bit
 draw_set_alpha(0.7);
-draw_rectangle_color(-10, -10, room_width + 10, room_height + 10, c_black, c_black, c_black, c_black, false);
+draw_rectangle_color(-10, -10, vw_ + 10, vh_ + 10, c_black, c_black, c_black, c_black, false);
 draw_set_alpha(1);
 
 // Set starting locations of the top left corner of the menu to start drawing from
-var _start_draw_x = room_width/ 2 - (space_ * 2);
-var _start_draw_y = room_height / 2;
+var _start_draw_x = vw_ / 2 - (space_ * 2);
+var _start_draw_y = vh_ / 2;
 
 // Allign text to draw in the middle
 draw_set_halign(fa_center);
 
 // Draw "Quit to menu?" text
 if (room != rm_menu) {
-	draw_text(room_width / 2, _start_draw_y - 44, "Quit to menu?");	
+	draw_text(vw_ / 2, _start_draw_y - 44, "Quit to menu?");	
 // Draw "Quit game?" text
 } else {
-	draw_text(room_width / 2, _start_draw_y - 44, "Quit game?");	
+	draw_text(vw_ / 2, _start_draw_y - 44, "Quit game?");	
 }
 
 // Draw menu with a for loop (m stands for menu -- easier to read)

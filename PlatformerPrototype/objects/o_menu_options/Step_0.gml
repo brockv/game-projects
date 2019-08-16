@@ -5,11 +5,16 @@ var move_horizontally = 0;	// Create var to move left and right in menu.
 // between given numbers. if no keyboard input detected, 
 // it will choose the max between 0,0. if keboard input detected it will choose between 1,0. 
 // So the max value will be 1.
-move_menu_pos -= max(k_up,0);	// -1 from current menu position when keyboard released.
-move_menu_pos += max(k_down,0);	// +1 from current menu position when keyboard released.
-move_horizontally -= max(k_left,0);
-move_horizontally += max(k_right,0);
-
+if (alarm[0] <= 0) {
+	move_menu_pos -= max(k_up,0);	// -1 from current menu position when keyboard released.
+	move_menu_pos += max(k_down,0);	// +1 from current menu position when keyboard released.
+	move_horizontally -= max(k_left,0);
+	move_horizontally += max(k_right,0);
+	
+	// If movement was detected, set the menu control alarm to limit movement speed
+	if (move_menu_pos != 0) alarm[0] = 10;
+	if (move_horizontally != 0) alarm[0] = 10;
+}
 // Move menu position and loop menu.
 if (move_menu_pos != 0 ) { // if keyboard button pressed move the game menu one position.
 	cursor_scale = 1.6;	// resize cursor scale when position moves.

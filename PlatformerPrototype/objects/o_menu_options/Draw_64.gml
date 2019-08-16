@@ -1,12 +1,12 @@
 /// @description Draw the menu
 
 // Set starting locations to start drawing from
-var _start_draw_x = room_width / 2 - (space * 4);	// Magic numbers ^__^
-var _start_draw_y = room_height / 2 - (space * 2);
+var _start_draw_x = vw_ / 2 - (space * 4);	// Magic numbers ^__^
+var _start_draw_y = vh_ / 2 - (space * 2);
 
 // Draw gray box to darken the screen a bit
 draw_set_alpha(0.7);
-draw_rectangle_color(-10, -10, room_width + 10, room_height + 10, c_black, c_black, c_black, c_black, false);
+draw_rectangle_color(-10, -10, vw_ + 10, vh_ + 10, c_black, c_black, c_black, c_black, false);
 draw_set_alpha(1);
 
 // Draw options menu

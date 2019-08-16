@@ -1,4 +1,4 @@
-/// @description Draw the menu.
+/// @description Draw the menu
 
 // Set starting locations of the top left corner of the menu to start drawing from
 var _start_draw_x = 56;

@@ -15,23 +15,20 @@
 // an issue, but it's not recommended that you change the view in this way after
 // initialsing the engine within a room.
 
-if instance_exists(o_aura_control)
-{
-if variable_instance_exists(o_aura_control, "aura_view")
-	{
-	var _ov = Aura_Get_View();
-	o_aura_control.aura_view = argument0;
-	if !Aura_ReInit(5)
-	    {
-	    // surface doesn't exist so something is wrong and we go back to the previous setting
-		o_aura_control.aura_view = _ov;
-		return false;
-	    }
-	else
-		{
-		return true;
+if (instance_exists(o_aura_control)) {
+	if (variable_instance_exists(o_aura_control, "aura_view")) {
+		var _ov = Aura_Get_View();
+		o_aura_control.aura_view = argument[0];
+		if (!Aura_ReInit(5)) {
+		    // surface doesn't exist so something is wrong and we go back to the previous setting
+			o_aura_control.aura_view = _ov;
+			return false;
+		} else {
+			return true;
 		}
+	} else {
+		return -1;
 	}
-else return -1;
+} else {
+	return noone;
 }
-else return noone;
