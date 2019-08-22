@@ -4,7 +4,7 @@
 event_inherited();
 
 // Used to rotate square sprite
-door_rotation = 0;
+door_rotation_ = 0;
 
 // Play sound when level is complete
-level_complete_sound = 0;
+level_complete_sound_ = 0;

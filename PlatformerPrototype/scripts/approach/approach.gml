@@ -1,5 +1,8 @@
 ///@description approach( start, end, shiftAmount);
-///@param start,end,shift
+///@param start
+///@param end
+///@param shift
+
 var _start = argument[0];
 var _end = argument[1];
 var _shift = argument[2];

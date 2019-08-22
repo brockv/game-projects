@@ -1,4 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Deactivate outside the view
 
 instance_deactivate_object(self);

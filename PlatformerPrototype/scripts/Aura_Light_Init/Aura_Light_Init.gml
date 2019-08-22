@@ -1,6 +1,6 @@
-/// @function				Aura_Light_Init(radius, colour, alpha, static, [scale]);
+/// @function				Aura_Light_Init(radius_, colour, alpha, static, [scale]);
 /// @description			Create a new light source
-/// @param {real}	radius	The radius of the light being created
+/// @param {real}	radius_	The radius_ of the light being created
 /// @param {real}	colour	The colour of the light blending
 /// @param {real}	alpha	The alpha of the light
 /// @param {bool}	static	Whether the light is static (set to true) or dynamic (false)
@@ -12,26 +12,24 @@
 // still modify the light colour and alpha with - NO PERFORMANCE LOSS - a
 // good way to get some simple effects like alarm lights without the hit 
 // to performance associated with dynamic lights. Note that if your sprite 
-// is larger or smaller than the radius f the light being created, you can 
+// is larger or smaller than the radius_ of the light being created, you can 
 // set the optional scale argument to true and the sprite will be scaled 
-// to fit the radius (this ONLY WORKS WITH SPRITES THAT HAVE THE ORIGIN 
+// to fit the radius_ (this ONLY WORKS WITH SPRITES THAT HAVE THE ORIGIN 
 // CENTERED!)
 
 // Set the light variables
-aura_light_radius = argument[0];      // Light radius
+aura_light_radius = argument[0];      // Light radius_
 aura_light_colour = argument[1];      // Light colour
 aura_light_alpha = argument[2];       // Light alpha
 aura_light_static = argument[3];      // Set the light to static (true) or dynamic (false)
-aura_light_update = true;           // Should the light update (true) or not(false)
-aura_light_enabled = true;          // Is the light enabled (true) or not (false)
+aura_light_update = true;             // Should the light update (true) or not(false)
+aura_light_enabled = true;            // Is the light enabled (true) or not (false)
 
-// Compensate for greater/smaller radius of the light than the sprite
-if argument_count > 4
-{
-if argument[4]
-	{
-	image_xscale = (aura_light_radius * 2) / sprite_get_width(sprite_index);
-	image_yscale = (aura_light_radius * 2) / sprite_get_height(sprite_index);
+// Compensate for greater/smaller radius_ of the light than the sprite
+if (argument_count > 4) {
+	if (argument[4]) {
+		image_xscale = (aura_light_radius * 2) / sprite_get_width(sprite_index);
+		image_yscale = (aura_light_radius * 2) / sprite_get_height(sprite_index);
 	}
 }
 

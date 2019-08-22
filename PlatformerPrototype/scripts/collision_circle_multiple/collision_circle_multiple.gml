@@ -1,7 +1,7 @@
-/// @description collision_circle_multiple(x1, y1, radius, object, prec, notme)
+/// @description collision_circle_multiple(x1, y1, radius_, object, prec, notme)
 /// @param x1
 /// @param  y1
-/// @param  radius
+/// @param  radius_
 /// @param  object
 /// @param  prec
 /// @param  notme

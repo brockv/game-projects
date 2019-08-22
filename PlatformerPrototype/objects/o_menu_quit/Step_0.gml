@@ -20,7 +20,7 @@ if (move_menu_pos != 0 ) {
 	audio_play_sound_on(emitter_sound_effects, a_menu_move, false, 7);
 	
 	// Adjust cursor scale when position moves
-	cursor_scale = 1.6;
+	cursor_scale_ = 1.6;
 	
 	// Adjust the menu position based on movement variables
 	menu_pos_ += move_menu_pos;
@@ -92,7 +92,7 @@ if (_button_back) {
 
 
 // Rotate cursor
-cursor_rotate -= 2;
+cursor_rotate_ -= 2;
 
 // Reset cursor rotate
-if (cursor_rotate <= -360) cursor_rotate = 0;
+if (cursor_rotate_ <= -360) cursor_rotate_ = 0;

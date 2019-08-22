@@ -3,7 +3,7 @@
 // Check if we are not in the main menu
 if (room != rm_menu) {
 	// If pause key pressed, toggle paused variable, and check if quit menu exists so that when we press the back key we dont accidentally unpause the game
-	if (k_pause) && (!instance_exists(o_menu_parent) ){
+	if (k_pause) && (!instance_exists(o_par_menu) ){
 		pause = !pause;	// or pause = 1 - pause;
 	}
 }

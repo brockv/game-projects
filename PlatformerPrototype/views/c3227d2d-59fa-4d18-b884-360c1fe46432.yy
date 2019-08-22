@@ -4,12 +4,12 @@
     "mvc": "1.1",
     "name": "c3227d2d-59fa-4d18-b884-360c1fe46432",
     "children": [
-        "4414c12a-1ed5-4db0-a465-d753ff65f4ea",
-        "c00cc287-cec5-460c-bc91-7a422f8c567f",
-        "b3db0760-2588-4336-97e2-8117b427e6a6",
-        "4f484ed8-ec47-4383-bb81-cbdd923809d5",
-        "3d34b02b-7ceb-4580-a2bf-4f2a57b13c9e",
-        "3080e91d-9c30-4631-b799-b906b68944e4"
+        "f41dcf66-71b1-488c-a63c-bb1e36b6d186",
+        "457f9509-6ff8-4244-8244-4aec649db4ac",
+        "ed9b9484-3d8e-4535-8230-3bd57d1fe082",
+        "4e992862-d47a-45c4-a3b6-1f6db66acf8a",
+        "fba499cb-34c2-463f-8755-a492e0c61027",
+        "3960ddc3-2dee-42c3-97dc-85dc870deedf"
     ],
     "filterType": "GMObject",
     "folderName": "WORLD",

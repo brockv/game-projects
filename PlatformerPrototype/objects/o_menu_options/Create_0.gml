@@ -22,4 +22,5 @@ slider_width  = sprite_get_width(s_slider_bar);
 slider_height = sprite_get_height(s_slider_bar);
 
 // Cursor effects
-cursor_scale = 1; // Grow cursor when moving
+cursor_scale_  = 1; // Grow cursor when moving
+cursor_rotate_ = 45;

@@ -10,14 +10,16 @@ view_height = camera_get_view_height(view_camera[0]);
 display_set_gui_size(view_width, view_height);
 
 // Create and set a custom font
-draw_set_font(fnt_game_text);
+draw_set_font(f_main);
 
 // Game variables
-globalvar pause, player_death, last_level, room_selected;
+globalvar pause, player_death, last_level, room_selected, one_second, destroyed;
 
-pause		 = 0;	// Start on false -- (not paused)
-player_death = 0;	// Set player death state to false
-last_level	 = -4;	// Used to save the last level player has visited. (-4 == noone)
+pause		 = 0;  // Start on false -- (not paused)
+player_death = 0;  // Set player death state to false
+last_level	 = -4; // Used to save the last level player has visited. (-4 == noone)
+one_second	 = game_get_speed(gamespeed_fps);  // Represents on in-game second
+destroyed	 = [];
 
 // Menu variables
 globalvar menu_active;
@@ -26,6 +28,7 @@ menu_active	= 1;	// Set to true -- display main menu
 #region // Controller input globals
 globalvar k_up, k_left, k_down, k_right, k_enter, k_dash, k_jump_pressed, k_jump_released, k_charge_pressed, k_charge_released;
 globalvar k_back,k_pause,player_left_check,player_right_check,player_up_check,player_down_check;
+globalvar k_action_1, k_action_2, k_action_3;
 
 // Menu movement
 k_up	= 0;
@@ -37,15 +40,20 @@ k_back	= 0;
 k_pause	= 0;
 
 // Player movement
-player_left_check	= 0;
-player_right_check	= 0;
-player_up_check		= 0;
-player_down_check	= 0;
-k_dash				= 0;
-k_jump_pressed		= 0;
-k_jump_released		= 0;
-k_charge_pressed	= 0;
-k_charge_released	= 0;
+player_left_check  = 0;
+player_right_check = 0;
+player_up_check	   = 0;
+player_down_check  = 0;
+k_dash			   = 0;
+k_jump_pressed	   = 0;
+k_jump_released	   = 0;
+k_charge_pressed   = 0;
+k_charge_released  = 0;
+
+// Player actions
+k_action_1 = 0;
+k_action_2 = 0;
+k_action_3 = 0;
 #endregion
 
 #region // Camera and screenshake
@@ -77,12 +85,9 @@ audio_emitter_gain(emitter_sound_effects,sound_effects_gain);
 
 #region // Hidden tile variables
 globalvar u_hidden_tile_alpha, hidden_tile_alpha, layer_fake, map_fake;
-
+hidden_tile_alpha   = 1;
 #endregion
 
 // FPS timer
 fps_timer  = 30; // every 30 frames update fps
 fps_amount = 0;
-
-// Play title music
-audio_play_sound_on(emitter_sound_music, a_music_menu, true, 7);

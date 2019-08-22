@@ -5,10 +5,3 @@
 
 Aura_Shadow_Caster_Box_Init();
 
-
-// DEMO code below can be removed
-
-direction = choose(0, 90, 180, 270);
-speed = 1 + irandom(3);
-alarm[0] = room_speed;
-

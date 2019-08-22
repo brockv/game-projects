@@ -1,4 +1,9 @@
-_player_layer = layer;
+/// @description Insert description here
+// You can write your code in this editor
 
-// Create our player if theyr don't exist on room start
-if (!instance_exists(o_player)) instance_create_layer(x, y - sprite_height - 2, layer, o_player);
+if (instance_exists(o_player)) {
+	if (o_player.start_position_ != noone) {
+		x = o_player.start_position_.x;
+		y = o_player.start_position_.y;
+	}
+}

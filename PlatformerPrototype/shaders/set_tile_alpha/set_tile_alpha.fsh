@@ -5,7 +5,7 @@ varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
 varying vec2 v_vScreenPos;
 
-uniform vec3 playerPosition; // x = player's x-position, y = player's y-position, z = radius
+uniform vec3 playerPosition; // x = player's x-position, y = player's y-position, z = radius_
 
 void main()
 {

@@ -20,14 +20,14 @@ if (move_menu_pos != 0) {
 	audio_play_sound_on(emitter_sound_effects, a_menu_move, false, 7);
 	
 	// Adjust cursor scale when position moves
-	cursor_scale = 1.6;
+	cursor_scale_ = 1.6;
 	
 	// Adjust the menu position based on movement variables
 	menu_pos_ += move_menu_pos;
 	
 	// Loop the menu if we go past either the lower or upper bounds of the array
-	if (menu_pos_ < 0) menu_pos_ = array_length_1d(menu) - 1; // Lower bound
-	if (menu_pos_ > array_length_1d(menu) -1) menu_pos_ = 0;  // Upper bound
+	if (menu_pos_ < 0) menu_pos_ = array_length_1d(menu_) - 1; // Lower bound
+	if (menu_pos_ > array_length_1d(menu_) -1) menu_pos_ = 0;  // Upper bound
 }
 
 // Create "Back" and "Enter" buttons, for menu navigation
@@ -37,15 +37,16 @@ _button_back  = max(k_back, 0);
 
 // Perform the appropriate action based on the player's menu activity
 switch (menu_pos_) {
-	// Check if "Enter" button is released, then go to next level
+	// Start game
 	case 0:
 		if _button_enter {
 			// Play a sound effect
 			audio_play_sound_on(emitter_sound_effects, a_menu_select, false, 7);
-			if (!instance_exists(o_fade_out_menu_play)) instance_create_layer(0, 0, "menu", o_fade_out_menu_play);
+			room_goto(rm_test);
+			//if (!instance_exists(o_fade_out_menu_play)) instance_create_layer(0, 0, "menu", o_fade_out_menu_play);
 		} break; 
 		
-	// Check if "Enter" button is released, then go to level select
+	// Level select
 	case 1:
 		if _button_enter {
 			// Play a sound effect
@@ -56,7 +57,7 @@ switch (menu_pos_) {
 			instance_destroy();
 		} break; 
 		
-	// Check if "Enter" button is released, then create options menu
+	// Options menu
 	case 2:
 		if _button_enter {
 			// Play a sound effect
@@ -66,7 +67,8 @@ switch (menu_pos_) {
 			// Destroy self
 			instance_destroy();
 		} break;
-	// Check if "Enter" button is released, then create quit selection menu
+		
+	// Quit game
 	case 3:
 		if _button_enter {
 			// Play a sound effect
@@ -79,3 +81,9 @@ switch (menu_pos_) {
 		
 	default: break;
 }
+
+// Rotate cursor
+cursor_rotate_ -= 2;
+
+// Reset cursor rotate
+if (cursor_rotate_ <= -360) cursor_rotate_ = 0;

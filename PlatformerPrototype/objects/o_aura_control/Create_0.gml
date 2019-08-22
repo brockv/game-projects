@@ -45,8 +45,13 @@
 // you want the ambient light to have. You can also enable anti-aliasing and tell 
 // Aura which view to use (set to -1 if you want no views).
 
-tile_id_ = layer_get_id("tiles");
-Aura_Init(0.6, c_dkgray, true, 0, tile_id_, 0);
+if (room = rm_init) {
+	Aura_Init(0.4, c_dkgray, true, 0, "tiles", 2);
+} else if (room = rm_menu) {
+	Aura_Init(0.4, c_dkgray, true, 0, "tiles", 2);
+} else {
+	Aura_Init(0.4, c_black, true, 0, 2);
+}
 
 // This script creates two further variables which you can use:
 //

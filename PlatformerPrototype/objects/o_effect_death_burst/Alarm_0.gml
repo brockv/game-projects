@@ -1,11 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Destroy particle system and particles
 
-#region // Destroy particle system and particles 
-
-part_system_destroy(part_sys);  
-part_emitter_destroy_all(part_sys);    
-
-#endregion
+part_system_destroy(part_sys_);  
+part_emitter_destroy_all(part_sys_);
 
 instance_destroy();

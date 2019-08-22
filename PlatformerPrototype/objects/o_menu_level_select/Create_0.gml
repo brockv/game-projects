@@ -19,5 +19,5 @@ level_number_two_ = 0;	// Level number in world two
 world_number_ = 0;		// Current world number selected
 
 space = 32;				// Space between menus
-cursor_rotate = 45;
-cursor_scale = 1;
+cursor_rotate_ = 45;
+cursor_scale_ = 1;

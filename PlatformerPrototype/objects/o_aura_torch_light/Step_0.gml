@@ -7,7 +7,7 @@
 //// Note! Changing the image_angle of the instance changes how the light is drawn too!
 //// You can also set the image xscale or yscale to get different effects, but to make 
 //// it visible the light needs to be updated afterwards or not be static. The scaled 
-//// sprite cannot be larger than the radius used to initialise it.
+//// sprite cannot be larger than the radius_ used to initialise it.
 
 //var _vw = camera_get_view_width(view_camera[0]);
 //var _vh = camera_get_view_height(view_camera[0]);

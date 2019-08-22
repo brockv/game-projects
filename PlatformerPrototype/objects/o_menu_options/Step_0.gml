@@ -17,7 +17,7 @@ if (alarm[0] <= 0) {
 }
 // Move menu position and loop menu.
 if (move_menu_pos != 0 ) { // if keyboard button pressed move the game menu one position.
-	cursor_scale = 1.6;	// resize cursor scale when position moves.
+	cursor_scale_ = 1.6;	// resize cursor scale when position moves.
 	menu_pos_ += move_menu_pos;	// Move menu position.
 	// loop menu array, if menu pos goes beyond 3 or lower than 0, menu pos will start from the top.
 	 if (menu_pos_ < 0) menu_pos_ = array_length_1d(menu_option) - 1; // lower than 0, loop to the highest menu pos
@@ -40,7 +40,10 @@ switch (menu_pos_) {
 			
 			// Loop screenshake between 0 and 1
 			if (screenshake_on < 0) screenshake_on = array_length_1d(screenshake_on_off) - 1;
-			if (screenshake_on > array_length_1d(screenshake_on_off) - 1) screenshake_on = 0;  
+			if (screenshake_on > array_length_1d(screenshake_on_off) - 1) screenshake_on = 0;
+			
+			// Play a sound effect
+			audio_play_sound_on(emitter_sound_effects, a_menu_select, false, 7);
 		}
         break;
 	
@@ -49,6 +52,9 @@ switch (menu_pos_) {
 		if (move_horizontally != 0) { // Left or right button/key is pressed
 			sound_music_gain += move_horizontally*0.1; // Move music volume ten percent at a time
 			sound_music_gain = clamp(sound_music_gain,0,1); // Clamp music volume
+			
+			// Play a sound effect
+			audio_play_sound_on(emitter_sound_effects, a_menu_select, false, 7);
 		}
 	    break;
 		
@@ -57,6 +63,9 @@ switch (menu_pos_) {
 		if (move_horizontally != 0){ // Left or right button/key is pressed
 			sound_effects_gain += move_horizontally*0.1; // Move FX volume ten percent at a time
 			sound_effects_gain = clamp(sound_effects_gain,0,1); // Clamp music volume
+			
+			// Play a sound effect
+			audio_play_sound_on(emitter_sound_effects, a_menu_select, false, 7);
 		}
 	    break;
     default: break;
@@ -77,3 +86,9 @@ if (_button_back) {
 			instance_destroy();
 		}
 }
+
+// Rotate cursor
+cursor_rotate_ -= 2;
+
+// Reset cursor rotate
+if (cursor_rotate_ <= -360) cursor_rotate_ = 0;

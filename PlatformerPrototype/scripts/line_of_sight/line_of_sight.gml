@@ -46,7 +46,7 @@ for (_i = _precision; _i < _dis; _i += _precision) {
     _yy = _y1 + lengthdir_y(_i, _dir);
 	
 	// If there's a solid block at any point between the two points, set result to false and break the loop
-    if (place_meeting(_xx, _yy, o_collision_parent)) {
+    if (place_meeting(_xx, _yy, o_par_collision)) {
         _result = false;
         break;
     }

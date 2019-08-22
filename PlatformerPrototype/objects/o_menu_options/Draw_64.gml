@@ -61,8 +61,8 @@ draw_sprite_part_ext(s_slider_bar, 1, 0, 0, slider_width * sound_effects_gain, s
 draw_sprite_ext(s_slider_button, 0, _start_draw_x + (space * 5) + slider_width * sound_effects_gain, _start_draw_y + (space * 2) + 10, 1, 1, 45, effects_color, 1); // Button
 
 // Reset squash and stretch when menu cursor moves
-cursor_scale = approach(cursor_scale, 1, 0.1);
+cursor_scale_ = approach(cursor_scale_, 1, 0.1);
 
 // Draw square where menu position is at -- some of these are 'magic numbers', used to make the sprite look good and uniform enough
 var _select_width = sprite_get_width(s_select) / 2;
-draw_sprite_ext(s_select, 0, _start_draw_x - space, _start_draw_y + (menu_pos_ * space) + _select_width, cursor_scale, cursor_scale, 45, c_white, 1);
+draw_sprite_ext(s_select, 0, _start_draw_x - space, _start_draw_y + (menu_pos_ * space) + _select_width, cursor_scale_, cursor_scale_, cursor_rotate_, c_white, 1);

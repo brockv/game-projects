@@ -8,13 +8,13 @@ const float Pi = 6.28318530718;
 
 void main()
 {
-vec2 radius = size.z / size.xy;
+vec2 radius_ = size.z / size.xy;
 vec4 Colour = texture2D(gm_BaseTexture, v_vTexcoord);
 for (float d = 0.0; d < Pi; d += Pi / float(Directions))
     {
 	for (float i = 1.0 / float(Quality); i <= 1.0; i += 1.0 / float(Quality))
 		{
-		Colour += texture2D(gm_BaseTexture, v_vTexcoord + vec2(cos(d), sin(d)) * radius * i);
+		Colour += texture2D(gm_BaseTexture, v_vTexcoord + vec2(cos(d), sin(d)) * radius_ * i);
 		}
 	}
 Colour /= float(Quality) * float(Directions) + 1.0;

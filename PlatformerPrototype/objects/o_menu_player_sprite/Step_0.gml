@@ -2,6 +2,6 @@
 
 #region // Particle system body
 
-part_emitter_region(part_sys, body_emitter, x, x, y-16, y-8, ps_shape_diamond, ps_distr_gaussian);
+part_emitter_region(part_sys_, body_emitter_, x, x, y-sprite_height / 2, y, ps_shape_diamond, ps_distr_gaussian);
 
 #endregion

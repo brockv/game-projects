@@ -34,11 +34,11 @@ for (var m = 0; m < array_length_1d(menu_quit); m++) {
 }
 
 // Reset squash and stretch when menu cursor moves
-cursor_scale = approach(cursor_scale, 1, 0.1);
+cursor_scale_ = approach(cursor_scale_, 1, 0.1);
 
 // Draw square where menu position is at -- some of these are 'magic numbers', used to make the sprite look good and uniform enough
 var _select_width = sprite_get_width(s_select) / 2; // Get width of sprite select to offset position slightly so it displays in the middle
-draw_sprite_ext(s_select, 0, _start_draw_x + (menu_pos_ * (space_ * 4)), _start_draw_y + 10, cursor_scale, cursor_scale, cursor_rotate, c_white, 1);
+draw_sprite_ext(s_select, 0, _start_draw_x + (menu_pos_ * (space_ * 4)), _start_draw_y + 10, cursor_scale_, cursor_scale_, cursor_rotate_, c_white, 1);
 
 // Reset horizontal alignment
 draw_set_halign(fa_left);

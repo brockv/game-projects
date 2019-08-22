@@ -1,7 +1,7 @@
-/// @function					Aura_Shadow_Caster_Circle_Init(precision, radius, [length]);
+/// @function					Aura_Shadow_Caster_Circle_Init(precision, radius_, [length]);
 /// @description				Create a circular shadow caster
 /// @param {real}	precision	The precision with which to generate the shadow caster vertex data (min: 4)
-/// @param {real}	radius		The radius of the shadow caster
+/// @param {real}	radius_		The radius_ of the shadow caster
 /// @param {real}	length		OPTIONAL! If this is set to any value over 0, then the shadow will
 ///								be drawn using this length multiplier.
 

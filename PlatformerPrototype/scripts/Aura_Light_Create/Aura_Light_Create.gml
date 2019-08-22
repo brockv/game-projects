@@ -1,4 +1,4 @@
-/// @function					Aura_Light_Create(layer, instance, sprite, index, x, y, radius, colour, alpha, static, visible);
+/// @function					Aura_Light_Create(layer, instance, sprite, index, x, y, radius_, colour, alpha, static, visible);
 /// @description				Create a new light source instance
 /// @param {real}	layer		The layer (real or string) to create the light instance on
 /// @param {real}	instance	The instance to create (must be a child of "o_aura_light_parent"
@@ -6,7 +6,7 @@
 /// @param {real}	index		The image index of the sprite to use (set to -1 to use the index set by the instance)
 /// @param {real}	x			The x position to create the light at
 /// @param {real}	y			The y position to create the light at
-/// @param {real}	radius		The radius of the light being created
+/// @param {real}	radius_		The radius_ of the light being created
 /// @param {real}	colour		The colour of the light blending
 /// @param {real}	alpha		The alpha of the light (0 - 1)
 /// @param {bool}	static		Whether the light is static (set to true) or dynamic (false)

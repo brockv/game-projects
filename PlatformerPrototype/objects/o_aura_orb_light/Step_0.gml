@@ -5,8 +5,8 @@
 //tile_x = tilemap_get_cell_x_at_pixel(map_id, x, y) * TILESIZE;
 //tile_y = tilemap_get_cell_y_at_pixel(map_id, x, y) * TILESIZE;
 
-////if (!collision_circle(tile_x, tile_y, o_player.radius, o_collision_parent, false, true)) {
-//if (distance_to_point(tile_x, tile_y) > (x + o_player.radius + 10)) {
+////if (!collision_circle(tile_x, tile_y, o_player.radius_, o_par_collision, false, true)) {
+//if (distance_to_point(tile_x, tile_y) > (x + o_player.radius_ + 10)) {
 //	gridX = floor(x / TILESIZE);
 //    gridY = floor(y / TILESIZE);
 	

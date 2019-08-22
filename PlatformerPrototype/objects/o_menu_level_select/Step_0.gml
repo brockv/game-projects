@@ -28,7 +28,7 @@ if (move_menu_vertical != 0) {
 	audio_play_sound_on(emitter_sound_effects, a_menu_move, false, 7);
 	
 	// Adjust cursor scale when menu position moves
-	cursor_scale = 1.6;
+	cursor_scale_ = 1.6;
 	
 	// Adjust the menu position based on movement variables
 	menu_pos_ += move_menu_vertical;
@@ -182,3 +182,9 @@ if (_button_back) {
 		if (!instance_exists(o_menu_select)) instance_create_layer(x, y, "menu", o_menu_select) instance_destroy();
 	}
 }
+
+// Rotate cursor
+cursor_rotate_ -= 2;
+
+// Reset cursor rotate
+if (cursor_rotate_ <= -360) cursor_rotate_ = 0;

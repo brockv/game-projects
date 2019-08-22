@@ -10,5 +10,5 @@ space_	  = 32;	// Space between each menu option
 menu_pos_ = 0;	// Represents where the menu selection currently is
 
 // Cursor effects
-cursor_scale  = 1;
-cursor_rotate = 45;
+cursor_scale_  = 1;
+cursor_rotate_ = 45;
