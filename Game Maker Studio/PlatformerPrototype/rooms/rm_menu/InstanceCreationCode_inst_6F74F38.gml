@@ -1,0 +1,1 @@
+direction_ = -1;
